@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "8c6d9c4307b7c006",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e2505b6b8b2b6d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a2076d41b21c89f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-18-冒泡排序.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "089905205807f16c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-18-插入排序.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "40aafab62d3c24b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6309d95663666ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79e2b9df4fbe8b3d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b6fad252d1bcdf26",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b7eb660fc3157640",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 251.5
+  },
+  "right": {
+    "id": "885766e01fce94a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "11598e01801d4cb9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac6f8abc7cfd3c1f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2024-07-18-插入排序.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3a3d5029fc8755ff",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2024-07-18-插入排序.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "17bd1c4940b17875",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1c5166bd813acd69",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2024-07-18-插入排序.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "089905205807f16c",
+  "lastOpenFiles": [
+    "2024-07-18-冒泡排序.md",
+    "2024-07-18-插入排序.md",
+    "2024-07-18-排序算法时间复杂度.md",
+    "_2024-07-17-hello.md",
+    "2024-07-18-sort.md",
+    "未命名"
+  ]
+}
