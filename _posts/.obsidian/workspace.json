@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "4e2505b6b8b2b6d8",
+        "id": "d649de4d61fb80ae",
         "type": "tabs",
         "children": [
           {
-            "id": "089905205807f16c",
+            "id": "7f58385f7080b080",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-07-26-计数排序.md",
-                "mode": "preview",
-                "source": true
+                "file": "2024-07-18-冒泡排序.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-07-26-计数排序.md",
+                "file": "2024-07-18-冒泡排序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-07-26-计数排序.md",
+                "file": "2024-07-18-冒泡排序.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-07-26-计数排序.md"
+                "file": "2024-07-18-冒泡排序.md"
               }
             }
           }
@@ -146,26 +146,26 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "089905205807f16c",
+  "active": "7f58385f7080b080",
   "lastOpenFiles": [
     "2024-07-25-桶排序.md",
     "2024-07-26-计数排序.md",
+    "2024-07-23-堆排序.md",
+    "2024-07-18-插入排序.md",
+    "2024-07-19-归并排序.md",
+    "2024-07-22-快速排序.md",
+    "2024-07-25-基数排序.md",
+    "2024-07-19-选择排序.md",
+    "2024-07-18-冒泡排序.md",
+    "2024-07-24-希尔排序.md",
+    "2024-07-19-折半插入排序.md",
     "_2019-08-08-write-a-new-post.md",
     "_2019-08-09-getting-started.md",
-    "2024-07-25-基数排序.md",
-    "2024-07-18-冒泡排序.md",
-    "2024-07-18-插入排序.md",
-    "2024-07-19-选择排序.md",
-    "2024-07-19-归并排序.md",
     "_2019-08-11-customize-the-favicon.md",
-    "2024-07-22-快速排序.md",
     "2024-07-18-排序算法汇总.md",
     "_2024-07-25-.md",
     "2024-07-24-堆.md",
-    "2024-07-24-希尔排序.md",
     "2024-07-25-斐波那契数.md",
-    "2024-07-23-堆排序.md",
-    "2024-07-19-折半插入排序.md",
     "_2019-08-08-text-and-typography.md",
     "2019-08-09-getting-started.md",
     "2019-08-11-customize-the-favicon.md",
