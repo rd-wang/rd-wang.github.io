@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-07-18-冒泡排序.md",
+                "file": "2024-07-18-排序算法.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 236.5
   },
   "right": {
     "id": "885766e01fce94a3",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-07-18-冒泡排序.md",
+                "file": "2024-07-18-排序算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-07-18-冒泡排序.md",
+                "file": "2024-07-18-排序算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-07-18-冒泡排序.md"
+                "file": "2024-07-18-排序算法.md"
               }
             }
           }
@@ -134,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,21 +148,21 @@
   },
   "active": "7f58385f7080b080",
   "lastOpenFiles": [
-    "2024-07-25-桶排序.md",
     "2024-07-26-计数排序.md",
+    "2024-07-18-排序算法.md",
+    "2024-07-18-冒泡排序.md",
+    "2024-07-25-桶排序.md",
     "2024-07-23-堆排序.md",
     "2024-07-18-插入排序.md",
     "2024-07-19-归并排序.md",
     "2024-07-22-快速排序.md",
     "2024-07-25-基数排序.md",
     "2024-07-19-选择排序.md",
-    "2024-07-18-冒泡排序.md",
     "2024-07-24-希尔排序.md",
     "2024-07-19-折半插入排序.md",
     "_2019-08-08-write-a-new-post.md",
     "_2019-08-09-getting-started.md",
     "_2019-08-11-customize-the-favicon.md",
-    "2024-07-18-排序算法汇总.md",
     "_2024-07-25-.md",
     "2024-07-24-堆.md",
     "2024-07-25-斐波那契数.md",
