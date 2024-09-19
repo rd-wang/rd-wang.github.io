@@ -2,12 +2,11 @@
 title: 模版说明
 date: 2024-9-14 10:10:12 +0800
 categories:
-  - flutter
   - template
-  - getx
 tags:
   - dart
   - flutter
+  - 模版
 description: 模版说明
 math: true
 ---
