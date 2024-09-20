@@ -49,7 +49,7 @@ math: true
 - [x] Awesome Notifications Helper 的集成测试
 - [x] Widget Animator 的集成测试
 - [x] 也适用于 BaseClient 的单元测试
-- [x] ] MySharedPreference 的单元测试
+- [x] MySharedPreference 的单元测试
 - [x] MyHive 的单元测试
 - [x] 本地化服务的单元测试
 - [x] 用 SharedPref 替换 get_storage（get_storage 未解决的测试问题）
@@ -162,53 +162,53 @@ math: true
 
 ## API
 
-### 添加module
+### module
 
 ```dart
-	//1.编写controller继承baseController，实现自己的业务控制。
-	class Favorite Controller extends BaseController<FavoriteRepository>{
+//1.编写controller继承baseController，实现自己的业务控制。
+class Favorite Controller extends BaseController<FavoriteRepository>{
+}
+
+//2.编写repository继承BaseRepository，实现自己的数据获取。
+class FavoriteRepository extends BaseRepository{
+	@override
+	loadData()=>showSucceedPage();
+}
+
+//3.编写view继承BaseView，实现自己的界面元素。
+class FavoriteView extends BaseView<FavoriteController>{
+	const FavoriteView({super.key});
+	@override
+	Widget body(BuildContextcontext){
+		return const Center(
+			child:Text('FavoriteViewisworking',style:titleStyle),
+		);
 	}
-	
-	//2.编写repository继承BaseRepository，实现自己的数据获取。
-	class FavoriteRepository extends BaseRepository{
-		@override
-		loadData()=>showSucceedPage();
+}
+
+//4.将以上组件组合起来。
+class FavoriteBinding extends Bindings{
+	@override
+	void dependencies(){
+		Get.lazyPut<FavoriteController>(()=>FavoriteController());
+		Get.lazyPut<FavoriteRepository>(()=>FavoriteRepository());
 	}
-	
-	//3.编写view继承BaseView，实现自己的界面元素。
-	class FavoriteView extends BaseView<FavoriteController>{
-		const FavoriteView({super.key});
-		@override
-		Widget body(BuildContextcontext){
-			return const Center(
-				child:Text('FavoriteViewisworking',style:titleStyle),
-			);
-		}
-	}
-	
-	//4.将以上组件组合起来。
-	class FavoriteBinding extends Bindings{
-		@override
-		void dependencies(){
-			Get.lazyPut<FavoriteController>(()=>FavoriteController());
-			Get.lazyPut<FavoriteRepository>(()=>FavoriteRepository());
-		}
-	}
-	
-	//5.注册进框架
-	GetPage(  
-	  name: Routes.FAVORITE,  
-	  page: () => const FavoriteView(),  
-	  binding: FavoriteBinding(),  
-	),
+}
+
+//5.注册进框架
+GetPage(  
+  name: Routes.FAVORITE,  
+  page: () => const FavoriteView(),  
+  binding: FavoriteBinding(),  
+),
 ```
 
-### 网络  
+### net  
 
 - 调用  (in Repository)  
 ```dart  
 getData<UserInfoEntity>(url, RequestType.put, fromJsonT: (json) {  
- return UserInfoEntity.fromJson(json);
+	return UserInfoEntity.fromJson(json);
 });  
 ```    
 - net API
@@ -232,17 +232,16 @@ getData<T>(
 
 ### Snackbars
   
-```dart  
+```dart
 AppSnackBar.showCustomSnackBar(title: 'Done successfully!', message: 'item added to wishlist');  
 AppSnackBar.showCustomErrorSnackBar(title: 'Failed!', message: 'failed to load data');  
 AppSnackBar.showCustomToast(message: 'added to card');  
 AppSnackBar.showCustomErrorToast(message: 'added to card');
-```  
+```
 
-![success_snackbar](https://rd-wang.github.io/assets/img/preview_images/success_snackbar.jpg)
-![failed_snackbar](https://rd-wang.github.io/assets/img/preview_images/failed_snackbar.jpg)
-![success_toast](https://rd-wang.github.io/assets/img/preview_images/success_toast.jpg)
-![fail_toast](https://rd-wang.github.io/assets/img/preview_images/fail_toast.jpg)
+|--|--|
+| ![success_snackbar](https://rd-wang.github.io/assets/img/preview_images/success_snackbar.jpg) | ![failed_snackbar](https://rd-wang.github.io/assets/img/preview_images/failed_snackbar.jpg) |
+| ![success_toast](https://rd-wang.github.io/assets/img/preview_images/success_toast.jpg)| ![fail_toast](https://rd-wang.github.io/assets/img/preview_images/fail_toast.jpg) |
 
 ### dimension
   
@@ -257,21 +256,18 @@ Container(
 	width: 200.w,    
 	child: Text("Hello",style: TextStyle(fontSize: 20.sp,)))  
 ```  
-### 主题  
+### theme  
 
 - 修改主题  
-
-```dart  
-      ThemeService().changeTheme(ThemeMode.dark)  
-```  
-
- - 获取当前ThemeMode  
-```dart  
-      ThemeMode currentMode = ThemeService().getCurrentThemeMode();  
-```  
-
+```dart
+	ThemeService().changeTheme(ThemeMode.dark)  
+```
+- 获取当前ThemeMode  
+```dart
+	ThemeMode currentMode = ThemeService().getCurrentThemeMode();  
+```
 - 本地记录的是ThemeMode的int值  
-```dart  
+```dart
 	bool isLightTheme() => ThemeMode.light == ThemeMode.values[AppPreference.getInt(themeValue)];  
 	  
 	bool isDarkTheme() => ThemeMode.dark == ThemeMode.values[AppPreference.getInt(themeValue)];  
@@ -279,12 +275,9 @@ Container(
 	bool isFollowSystem() => ThemeMode.system == ThemeMode.values[AppPreference.getInt(themeValue)];  
 	  
 	ThemeMode getCurrentThemeMode() => ThemeMode.values[AppPreference.getInt(themeValue)];
-```        
- 
+```
 - 主题可以使theme包下的自定义主题。
-
 - 如果你想使用成套的主题FlexThemeData使用非常的方便，在GetMaterialApp引用FlexThemeData.light(); [详细信息](https://rydmike.com/flexcolorscheme/themesplayground-latest/)
-
 ```dart 
 GetMaterialApp(
 	...
@@ -327,32 +320,29 @@ GetMaterialApp(
 	  // fontFamily: GoogleFonts.notoSans().fontFamily,),  
 	themeMode: ThemeService().getCurrentThemeMode(),
 	...
-)
+	)
 ```
 
+|--|--|
+|![light_mode](https://rd-wang.github.io/assets/img/preview_images/light_mode.jpg)|![dark_mode](https://rd-wang.github.io/assets/img/preview_images/dark_mode.jpg)|
 
-![light_mode](https://rd-wang.github.io/assets/img/preview_images/light_mode.jpg)
-![dark_mode](https://rd-wang.github.io/assets/img/preview_images/dark_mode.jpg)
-
-### 多语言
+### i18n
 
 - 修改app语言  
 ``` dart  
 	LocalizationService().updateLanguage('zh');        
-```  
+```
 - 获取当前语言  
 ```dart  
 	LocalizationService().getCurrentLocal();      
-```  
+```
 - 使用多语言  
-
 ```dart  
 	Text(Strings.hello.tr)
-```  
+```
 
-
-![chinese](https://rd-wang.github.io/assets/img/preview_images/chinese.jpg)
-![english](https://rd-wang.github.io/assets/img/preview_images/english.jpg)
+|--|--|
+|![chinese](https://rd-wang.github.io/assets/img/preview_images/chinese.jpg)|![english](https://rd-wang.github.io/assets/img/preview_images/english.jpg)|
 
 ## Discovering Project  
 After setting up all the needed thing now lets talk about folder structure which is mainly based on Getx Pattern and there are some personal opinions, if you open your lib folder you will find those folders  
