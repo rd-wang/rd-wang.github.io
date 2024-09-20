@@ -10,7 +10,7 @@ tags:
 description: 模版说明
 math: true
 ---
-# Flutter GetX Template
+# [Flutter GetX Template](https://github.com/rd-wang/flutter_getx_template)
 
 [Flutter Getx模板](https://github.com/rd-wang/flutter_getx_template)使用所有所需的配置启动新项目从未如此简单。
 
