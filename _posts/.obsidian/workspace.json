@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-09-20-Dart变量.md",
-                "mode": "preview",
+                "file": "2024-09-23-Dart类型.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 236.5,
+    "collapsed": true
   },
   "right": {
     "id": "885766e01fce94a3",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-09-20-Dart变量.md",
+                "file": "2024-09-23-Dart类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-09-20-Dart变量.md",
+                "file": "2024-09-23-Dart类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-09-20-Dart变量.md"
+                "file": "2024-09-23-Dart类型.md"
               }
             }
           }
@@ -148,12 +149,15 @@
   },
   "active": "5b9dab08165f2563",
   "lastOpenFiles": [
-    "_2024-09-20-1.md",
-    "2024-09-20-Dart语法规范.md",
-    "2024-09-20-Dart变量.md",
-    "2024-09-14-Flutter-App项目模版说明.md",
-    "2024-08-14-Dart语言概览.md",
+    "2024-07-22-快速排序.md",
+    "2024-09-23-Dart类型.md",
+    "2024-07-19-选择排序.md",
     "2024-08-13-Dart基础概念和内部原理.md",
+    "2024-09-20-Dart变量.md",
+    "2024-08-14-Dart语言概览.md",
+    "2024-09-14-Flutter-App项目模版说明.md",
+    "2024-09-20-Dart语法规范.md",
+    "_2024-09-20-1.md",
     "2024-07-30-梳排序.md",
     "_2019-08-08-write-a-new-post.md",
     "2024-07-30-鸡尾酒排序.md",
@@ -169,13 +173,10 @@
     "2024-07-18-排序算法.md",
     "2024-07-18-冒泡排序.md",
     "2024-07-18-插入排序.md",
-    "2024-07-19-选择排序.md",
     "Pasted image 20240914104558.png",
     "_2024-07-25-.md",
     "2024-07-19-归并排序.md",
     "2024-07-19-折半插入排序.md",
-    "2024-07-22-快速排序.md",
-    "2024-07-23-堆排序.md",
     "custom-the-favicon.html",
     "custom-the-favicon",
     "新建 文本文档.txt",
