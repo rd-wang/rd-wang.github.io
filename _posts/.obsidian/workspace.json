@@ -14,12 +14,29 @@
               "type": "markdown",
               "state": {
                 "file": "2024-08-14-Dart语言概览.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2024-08-14-Dart语言概览"
+            }
+          },
+          {
+            "id": "4a25ed973967b7a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-18-插入排序.md",
                 "mode": "source",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2024-07-18-插入排序"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -38,8 +55,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
-              }
+                "sortOrder": "byCreatedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -54,7 +74,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -62,7 +84,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -85,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-08-14-Dart语言概览.md",
+                "file": "2024-07-18-插入排序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +117,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "2024-07-18-插入排序 的反向链接列表"
             }
           },
           {
@@ -102,10 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-08-14-Dart语言概览.md",
+                "file": "2024-07-18-插入排序.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "2024-07-18-插入排序 的出链列表"
             }
           },
           {
@@ -115,8 +143,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -125,8 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-08-14-Dart语言概览.md"
-              }
+                "file": "2024-07-18-插入排序.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "2024-07-18-插入排序 的大纲"
             }
           }
         ],
@@ -146,8 +183,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5b9dab08165f2563",
+  "active": "4a25ed973967b7a0",
   "lastOpenFiles": [
+    "2024-07-18-插入排序.md",
+    "2024-08-14-Dart语言概览.md",
     "2024-09-27-Dart类.md",
     "2024-09-27-Dart错误处理.md",
     "_2024-09-20-1.md",
@@ -160,7 +199,6 @@
     "2024-09-20-Dart变量.md",
     "2024-09-24-Dart注释.md",
     "2024-09-24-Dart运算符.md",
-    "2024-08-14-Dart语言概览.md",
     "2024-09-14-Flutter-App项目模版说明.md",
     "2024-09-20-Dart语法规范.md",
     "2024-09-23-Dart类型.md",
@@ -173,7 +211,6 @@
     "2024-07-25-桶排序.md",
     "2024-07-25-基数排序.md",
     "2024-07-25-斐波那契数.md",
-    "_2024-08-13-.md",
     "2024-09-14-Flutter-App项目模版说明.md~",
     "Pasted image 20240914104558.png",
     "custom-the-favicon.html",
