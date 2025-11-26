@@ -1,5 +1,5 @@
 ---
-title: Dart Typedefs
+title: DartTypedefs
 date: 2025-11-26 17:31:16 +0800
 categories:
   - dart

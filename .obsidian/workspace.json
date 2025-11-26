@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-11-26-Dart Typedefs.md",
-                "mode": "preview",
+                "file": "_posts/2025-11-26-DartTypedefs.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-11-26-Dart Typedefs"
+              "title": "2025-11-26-DartTypedefs"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2025-11-26-Dart Typedefs.md",
+                "file": "_posts/2025-11-26-DartTypedefs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-11-26-Dart Typedefs 的反向链接列表"
+              "title": "2025-11-26-DartTypedefs 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2025-11-26-Dart Typedefs.md",
+                "file": "_posts/2025-11-26-DartTypedefs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-11-26-Dart Typedefs 的出链列表"
+              "title": "2025-11-26-DartTypedefs 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2025-11-26-Dart Typedefs.md",
+                "file": "_posts/2025-11-26-DartTypedefs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-11-26-Dart Typedefs 的大纲"
+              "title": "2025-11-26-DartTypedefs 的大纲"
             }
           }
         ]
@@ -171,14 +171,14 @@
   },
   "active": "365f469b0f195078",
   "lastOpenFiles": [
-    "_posts/2024-09-24-Dart注解.md",
-    "_posts/2025-11-26-Dart Typedefs.md",
-    "_posts/_2024-09-20-1.md",
     "_posts/2024-08-13-Dart基础概念和内部原理.md",
+    "_posts/2025-11-26-DartTypedefs.md",
+    "_posts/2024-11-26-Dart元数据.md",
+    "_posts/2024-09-24-Dart注解.md",
+    "_posts/_2024-09-20-1.md",
     "_posts/2024-09-24-Dart库&导入.md",
     "_posts/2024-08-14-Dart语言概览.md",
     "_posts/2024-09-14-Flutter-App项目模版说明.md",
-    "_posts/2024-11-26-Dart元数据.md",
     "_posts/2024-11-26-Dart生成器.md",
     "_posts/2024-11-26-Dart库.md",
     "_posts/2024-11-25-Dart异步.md",
