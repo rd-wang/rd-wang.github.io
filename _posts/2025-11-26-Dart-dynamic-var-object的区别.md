@@ -1,5 +1,5 @@
 ---
-title: Dart dynamic，var，object的区别
+title: Dart-dynamic-var-object的区别
 date: 2025-11-26 19:05:33 +0800
 categories:
   - dart
