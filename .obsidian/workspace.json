@@ -4,31 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e19343c647a77ee1",
+        "id": "0782ecec250f97ef",
         "type": "tabs",
         "children": [
           {
-            "id": "f12e6635f7a70658",
+            "id": "365f469b0f195078",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-20-Dart语法规范.md",
+                "file": "_posts/2025-11-26-Dart词法作用域.md",
                 "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2024-09-20-Dart语法规范"
+              "title": "2025-11-26-Dart词法作用域"
             }
           }
         ]
@@ -104,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-20-Dart语法规范.md",
+                "file": "_posts/2025-11-26-Dart词法作用域.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2024-09-20-Dart语法规范 的反向链接列表"
+              "title": "2025-11-26-Dart词法作用域 的反向链接列表"
             }
           },
           {
@@ -123,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-20-Dart语法规范.md",
+                "file": "_posts/2025-11-26-Dart词法作用域.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2024-09-20-Dart语法规范 的出链列表"
+              "title": "2025-11-26-Dart词法作用域 的出链列表"
             }
           },
           {
@@ -152,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-20-Dart语法规范.md",
+                "file": "_posts/2025-11-26-Dart词法作用域.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2024-09-20-Dart语法规范 的大纲"
+              "title": "2025-11-26-Dart词法作用域 的大纲"
             }
           }
         ]
@@ -179,24 +169,36 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f12e6635f7a70658",
+  "active": "365f469b0f195078",
   "lastOpenFiles": [
+    "未命名.base",
+    "_posts/2025-11-26-Dart词法作用域.md",
+    "_posts/2024-08-13-Dart基础概念和内部原理.md",
+    "_posts/_2024-09-20-1.md",
+    "_posts/2024-09-27-Dart类.md",
+    "_posts/2024-09-24-Dart函数.md",
     "_posts/2024-09-24-Dart库&导入.md",
+    "未命名 14.base",
+    "未命名 13.base",
+    "未命名 12.base",
+    "未命名 11.base",
+    "未命名 10.base",
+    "未命名 9.base",
+    "未命名 8.base",
+    "未命名 7.base",
+    "未命名 6.base",
+    "未命名 5.base",
     "_posts/2024-09-20-Dart语法规范.md",
     "_posts/2024-09-24-Dart注释.md",
     "_posts/2024-09-27-Dart错误处理.md",
     "_posts/2024-09-26-Dart流程控制.md",
     "_posts/2024-09-24-Dart注解.md",
     "_posts/2024-09-24-Dart运算符.md",
-    "_posts/2024-09-24-Dart函数.md",
     "_posts/2024-09-24-Dart关键字.md",
     "_posts/2024-09-23-Dart类型.md",
     "_posts/2024-09-20-Dart变量.md",
     "_posts/2024-09-14-Flutter-App项目模版说明.md",
     "_posts/2024-08-14-Dart语言概览.md",
-    "_posts/2024-08-13-Dart基础概念和内部原理.md",
-    "_posts/2024-09-27-Dart类.md",
-    "_posts/_2024-09-20-1.md",
     "_tabs/tags.md",
     "_tabs/categories.md",
     "_tabs/archives.md",
