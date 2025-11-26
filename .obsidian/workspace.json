@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-11-26-Dart词法作用域.md",
+                "file": "_posts/2025-11-26-DartTypedefs.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-11-26-Dart词法作用域"
+              "title": "2025-11-26-DartTypedefs"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2025-11-26-Dart词法作用域.md",
+                "file": "_posts/2025-11-26-DartTypedefs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-11-26-Dart词法作用域 的反向链接列表"
+              "title": "2025-11-26-DartTypedefs 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2025-11-26-Dart词法作用域.md",
+                "file": "_posts/2025-11-26-DartTypedefs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-11-26-Dart词法作用域 的出链列表"
+              "title": "2025-11-26-DartTypedefs 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2025-11-26-Dart词法作用域.md",
+                "file": "_posts/2025-11-26-DartTypedefs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-11-26-Dart词法作用域 的大纲"
+              "title": "2025-11-26-DartTypedefs 的大纲"
             }
           }
         ]
@@ -171,19 +171,27 @@
   },
   "active": "365f469b0f195078",
   "lastOpenFiles": [
+    "_posts/_2024-09-20-1.md",
+    "_posts/2025-11-26-DartTypedefs.md",
+    "_posts/2024-08-13-Dart基础概念和内部原理.md",
+    "_posts/2024-09-24-Dart库&导入.md",
+    "_posts/2024-08-14-Dart语言概览.md",
+    "_posts/2024-09-14-Flutter-App项目模版说明.md",
+    "_posts/2024-11-26-Dart元数据.md",
+    "_posts/2024-11-26-Dart生成器.md",
+    "_posts/2024-11-26-Dart库.md",
+    "_posts/2024-11-25-Dart异步.md",
+    "_posts/2024-07-30-梳排序.md",
+    "_posts/2024-11-25-Dart泛型.md",
+    "_posts/2024-11-25-Dart词法作用域.md",
+    "_posts/2024-09-27-Dart类.md",
     "assets/img/dart/变量作用域.png",
-    "_posts/2025-11-26-Dart词法作用域.md",
     "assets/img/dart/未确认 109308.crdownload",
     "_posts/2024-07-25-斐波那契数.md",
-    "_posts/2025-11-26-Dart泛型.md",
-    "_posts/2024-08-13-Dart基础概念和内部原理.md",
-    "_posts/2024-09-27-Dart类.md",
     "_posts/2024-09-27-Dart错误处理.md",
     "_posts/2024-09-26-Dart流程控制.md",
-    "_posts/_2024-09-20-1.md",
     "未命名.base",
     "_posts/2024-09-24-Dart函数.md",
-    "_posts/2024-09-24-Dart库&导入.md",
     "未命名 14.base",
     "未命名 13.base",
     "未命名 12.base",
@@ -199,13 +207,7 @@
     "_posts/2024-09-24-Dart关键字.md",
     "_posts/2024-09-23-Dart类型.md",
     "_posts/2024-09-20-Dart变量.md",
-    "_posts/2024-09-14-Flutter-App项目模版说明.md",
-    "_posts/2024-08-14-Dart语言概览.md",
     "_tabs/tags.md",
-    "_tabs/categories.md",
-    "_tabs/archives.md",
-    "_tabs/about.md",
-    "assets/lib/README.md",
     "assets/img/preview_images/fail_toast.jpg",
     "assets/img/preview_images/dark_mode.jpg",
     "assets/img/preview_images/chinese.jpg",
