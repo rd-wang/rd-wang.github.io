@@ -1,5 +1,5 @@
 ---
-title: DartTypedefs
+title: Dart-Typedefs
 date: 2025-11-26 17:31:16 +0800
 categories:
   - dart
@@ -9,7 +9,7 @@ tags:
 description: 函数也是对象，就想字符和数字对象一样。 使用 `typedef `，或者 function-type alias 为函数起一个别名
 math: true
 ---
-> [Dart语言详解](https://rd-wang.github.io/posts/Dart基础概念和内部原理/)
+> [Dart语言详解](https://rd-wang.github.io/posts/Dart-基础概念和内部原理/)
 
 
 ### Typedefs

@@ -9,7 +9,7 @@ tags:
 description: var定义的类型是不可变的，dynamic和object类型是可以变的，而dynamic 与object 的最大的区别是在静态类型检查上 
 math: true
 ---
-> [Dart语言详解](https://rd-wang.github.io/posts/Dart基础概念和内部原理/)
+> [Dart语言详解](https://rd-wang.github.io/posts/Dart-基础概念和内部原理/)
 
 var定义的类型是不可变的，dynamic和object类型是可以变的，而dynamic 与object 的最大的区别是在静态类型检查上
 ```dart
