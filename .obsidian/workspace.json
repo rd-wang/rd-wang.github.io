@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-13-Dart基础概念和内部原理.md",
+                "file": "_posts/2025-11-26-Dart词法作用域.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2024-08-13-Dart基础概念和内部原理"
+              "title": "2025-11-26-Dart词法作用域"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-13-Dart基础概念和内部原理.md",
+                "file": "_posts/2025-11-26-Dart词法作用域.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2024-08-13-Dart基础概念和内部原理 的反向链接列表"
+              "title": "2025-11-26-Dart词法作用域 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-13-Dart基础概念和内部原理.md",
+                "file": "_posts/2025-11-26-Dart词法作用域.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2024-08-13-Dart基础概念和内部原理 的出链列表"
+              "title": "2025-11-26-Dart词法作用域 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-13-Dart基础概念和内部原理.md",
+                "file": "_posts/2025-11-26-Dart词法作用域.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2024-08-13-Dart基础概念和内部原理 的大纲"
+              "title": "2025-11-26-Dart词法作用域 的大纲"
             }
           }
         ]
@@ -171,12 +171,15 @@
   },
   "active": "365f469b0f195078",
   "lastOpenFiles": [
-    "_posts/2025-11-26-Dart泛型.md",
+    "assets/img/dart/变量作用域.png",
     "_posts/2025-11-26-Dart词法作用域.md",
+    "assets/img/dart/未确认 109308.crdownload",
+    "_posts/2024-07-25-斐波那契数.md",
+    "_posts/2025-11-26-Dart泛型.md",
+    "_posts/2024-08-13-Dart基础概念和内部原理.md",
     "_posts/2024-09-27-Dart类.md",
     "_posts/2024-09-27-Dart错误处理.md",
     "_posts/2024-09-26-Dart流程控制.md",
-    "_posts/2024-08-13-Dart基础概念和内部原理.md",
     "_posts/_2024-09-20-1.md",
     "未命名.base",
     "_posts/2024-09-24-Dart函数.md",
@@ -189,7 +192,6 @@
     "未命名 9.base",
     "未命名 8.base",
     "未命名 7.base",
-    "未命名 6.base",
     "_posts/2024-09-20-Dart语法规范.md",
     "_posts/2024-09-24-Dart注释.md",
     "_posts/2024-09-24-Dart注解.md",
