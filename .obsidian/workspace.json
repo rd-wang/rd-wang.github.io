@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-13-Dart基础概念和内部原理.md",
+                "file": "_posts/2025-11-26-Dart-dynamic-var-object的区别.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2024-08-13-Dart基础概念和内部原理"
+              "title": "2025-11-26-Dart-dynamic-var-object的区别"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-13-Dart基础概念和内部原理.md",
+                "file": "_posts/2025-11-26-Dart-dynamic-var-object的区别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2024-08-13-Dart基础概念和内部原理 的反向链接列表"
+              "title": "2025-11-26-Dart-dynamic-var-object的区别 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-13-Dart基础概念和内部原理.md",
+                "file": "_posts/2025-11-26-Dart-dynamic-var-object的区别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2024-08-13-Dart基础概念和内部原理 的出链列表"
+              "title": "2025-11-26-Dart-dynamic-var-object的区别 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-13-Dart基础概念和内部原理.md",
+                "file": "_posts/2025-11-26-Dart-dynamic-var-object的区别.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2024-08-13-Dart基础概念和内部原理 的大纲"
+              "title": "2025-11-26-Dart-dynamic-var-object的区别 的大纲"
             }
           }
         ]
@@ -171,8 +171,9 @@
   },
   "active": "365f469b0f195078",
   "lastOpenFiles": [
-    "_posts/2025-11-26-Dart dynamic，var，object的区别.md",
     "_posts/2024-08-13-Dart基础概念和内部原理.md",
+    "_posts/2025-11-26-Dart-dynamic-var-object的区别.md",
+    "_posts/2025-11-26-Dart 构造函数.md",
     "_posts/_2025-11-26-1.md",
     "_posts/2025-11-26-SOLID原则.md",
     "_posts/2024-11-26-Dart生成器.md",
@@ -215,7 +216,6 @@
     "未命名 12.base",
     "_posts/2024-09-20-Dart语法规范.md",
     "_posts/2024-09-24-Dart注释.md",
-    "_posts/2024-09-24-Dart运算符.md",
-    "_posts/2024-09-24-Dart关键字.md"
+    "_posts/2024-09-24-Dart运算符.md"
   ]
 }
