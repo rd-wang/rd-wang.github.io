@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-24-Dart-注解.md",
+                "file": "_posts/2025-11-26-Dart-取消Future.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2024-09-24-Dart-注解"
+              "title": "2025-11-26-Dart-取消Future"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-24-Dart-注解.md",
+                "file": "_posts/2025-11-26-Dart-取消Future.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2024-09-24-Dart-注解 的反向链接列表"
+              "title": "2025-11-26-Dart-取消Future 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-24-Dart-注解.md",
+                "file": "_posts/2025-11-26-Dart-取消Future.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2024-09-24-Dart-注解 的出链列表"
+              "title": "2025-11-26-Dart-取消Future 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-24-Dart-注解.md",
+                "file": "_posts/2025-11-26-Dart-取消Future.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2024-09-24-Dart-注解 的大纲"
+              "title": "2025-11-26-Dart-取消Future 的大纲"
             }
           }
         ]
@@ -171,10 +171,13 @@
   },
   "active": "38a584f393a0c738",
   "lastOpenFiles": [
+    "_posts/2024-08-13-Dart-基础概念和内部原理.md",
+    "_posts/2025-11-26-Dart-取消Future.md",
+    "_posts/_2025-11-26-1.md",
+    "_posts/2024-09-24-Dart-注解.md",
     "_posts/2024-11-26-Dart-生成器.md",
     "_posts/2024-11-26-Dart-库.md",
     "_posts/2025-11-26-Dart-类的继承(Extends)与混入(Mixin).md",
-    "_posts/2024-08-13-Dart-基础概念和内部原理.md",
     "_posts/2025-11-26-Dart-dynamic-var-object的区别.md",
     "_posts/2025-11-26-Dart-单例的四种写法.md",
     "_posts/2024-09-20-Dart-语法规范.md",
@@ -196,14 +199,11 @@
     "assets/img/dart/mixin-1.png",
     "assets/img/dart/未确认 782803.crdownload",
     "assets/img/dart/新建文件夹",
-    "_posts/_2025-11-26-1.md",
     "_posts/2024-11-26-Dart-元数据.md",
     "_posts/2025-11-26-Dart-Typedefs.md",
-    "_posts/2024-09-24-Dart-注解.md",
     "_posts/2024-11-25-Dart-异步.md",
     "_posts/2024-11-25-Dart-泛型.md",
     "_posts/2024-11-25-Dart-词法作用域.md",
-    "_posts/2024-09-27-Dart-类.md",
     "assets/img/favicons/site.webmanifest",
     "assets/img/favicons/browserconfig.xml",
     "assets/img/site.webmanifest",
