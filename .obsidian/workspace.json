@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-11-26-Dart-类的继承(Extends)与混入(Mixin).md",
+                "file": "_posts/2024-08-13-Dart-基础概念和内部原理.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-11-26-Dart-类的继承(Extends)与混入(Mixin)"
+              "title": "2024-08-13-Dart-基础概念和内部原理"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2025-11-26-Dart-类的继承(Extends)与混入(Mixin).md",
+                "file": "_posts/2024-08-13-Dart-基础概念和内部原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-11-26-Dart-类的继承(Extends)与混入(Mixin) 的反向链接列表"
+              "title": "2024-08-13-Dart-基础概念和内部原理 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2025-11-26-Dart-类的继承(Extends)与混入(Mixin).md",
+                "file": "_posts/2024-08-13-Dart-基础概念和内部原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-11-26-Dart-类的继承(Extends)与混入(Mixin) 的出链列表"
+              "title": "2024-08-13-Dart-基础概念和内部原理 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2025-11-26-Dart-类的继承(Extends)与混入(Mixin).md",
+                "file": "_posts/2024-08-13-Dart-基础概念和内部原理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-11-26-Dart-类的继承(Extends)与混入(Mixin) 的大纲"
+              "title": "2024-08-13-Dart-基础概念和内部原理 的大纲"
             }
           }
         ]
@@ -171,9 +171,9 @@
   },
   "active": "38a584f393a0c738",
   "lastOpenFiles": [
+    "_posts/2025-11-26-Dart-类的继承(Extends)与混入(Mixin).md",
     "_posts/2024-07-19-归并排序.md",
     "_posts/2024-07-18-排序算法.md",
-    "_posts/2025-11-26-Dart-类的继承(Extends)与混入(Mixin).md",
     "assets/img/dart/mixin-3.png",
     "assets/img/dart/未确认 915809.crdownload",
     "assets/img/dart/mixin-2.png",
