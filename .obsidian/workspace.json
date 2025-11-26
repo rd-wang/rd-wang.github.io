@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "e378b74b442681db",
+        "id": "e19343c647a77ee1",
         "type": "tabs",
         "children": [
           {
-            "id": "28167235276c316e",
+            "id": "f12e6635f7a70658",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/img/preview_images/architecture.png"
-              }
+                "file": "_posts/2024-08-13-Dart基础概念和内部原理.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2024-08-13-Dart基础概念和内部原理"
             }
           }
         ]
@@ -36,8 +50,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -52,7 +69,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -60,7 +79,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -83,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/img/preview_images/architecture.png",
+                "file": "_posts/2024-08-13-Dart基础概念和内部原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,7 +112,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "2024-08-13-Dart基础概念和内部原理 的反向链接列表"
             }
           },
           {
@@ -100,10 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/img/preview_images/architecture.png",
+                "file": "_posts/2024-08-13-Dart基础概念和内部原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "2024-08-13-Dart基础概念和内部原理 的出链列表"
             }
           },
           {
@@ -113,8 +138,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -123,8 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/img/preview_images/architecture.png"
-              }
+                "file": "_posts/2024-08-13-Dart基础概念和内部原理.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "2024-08-13-Dart基础概念和内部原理 的大纲"
             }
           }
         ]
@@ -136,6 +170,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -144,6 +179,29 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "28167235276c316e",
-  "lastOpenFiles": []
+  "active": "f12e6635f7a70658",
+  "lastOpenFiles": [
+    "_posts/2024-09-26-Dart流程控制.md",
+    "_posts/2024-08-13-Dart基础概念和内部原理.md",
+    "_posts/2024-09-24-Dart运算符.md",
+    "_posts/2024-08-14-Dart语言概览.md",
+    "_posts/2024-09-27-Dart类.md",
+    "_posts/2024-09-24-Dart库&导入.md",
+    "_posts/2024-09-24-Dart函数.md",
+    "_posts/2024-09-24-Dart关键字.md",
+    "_posts/2024-09-20-Dart语法规范.md",
+    "_posts/2024-09-20-Dart变量.md",
+    "_posts/2024-09-23-Dart类型.md",
+    "_posts/2024-09-14-Flutter-App项目模版说明.md",
+    "_posts/_2024-09-20-1.md",
+    "_tabs/tags.md",
+    "_tabs/categories.md",
+    "_tabs/archives.md",
+    "_tabs/about.md",
+    "assets/lib/README.md",
+    "assets/img/preview_images/fail_toast.jpg",
+    "assets/img/preview_images/dark_mode.jpg",
+    "assets/img/preview_images/chinese.jpg",
+    "assets/img/preview_images/architecture.png"
+  ]
 }
