@@ -24,7 +24,7 @@ math: true
 
 #### spawnUri
 
-```java
+```dart
 static Future<Isolate> spawnUri()
 ```
 
@@ -39,7 +39,7 @@ spawnUri方法有三个必须的参数，
 
 主Isolate中的代码：
 
-```java
+```dart
 import 'dart:isolate'; 
 
 void main() {
@@ -70,7 +70,7 @@ create_isolate() async{
 }
 ```
 创建other_task.dart文件，编写新Isolate的代码
-```java
+```dart
 import 'dart:isolate';
 import  'dart:io';
 
@@ -128,7 +128,7 @@ static Future<Isolate> spawn()
 
 spawn的用法与spawnUri相似，且更为简洁，将上面例子稍作修改如下
 
-```java
+```dart
 import 'dart:isolate'; 
 import  'dart:io';
 
@@ -190,11 +190,12 @@ doWork message: [1, 这条信息是 main isolate 发送的]
 无论是上面的spawn还是spawnUri，运行后都会创建两个进程，一个是主Isolate的进程，一个是新Isolate的进程，两个进程都双向绑定了消息通信的通道，即使新的Isolate中的任务完成了，它的进程也不会立刻退出，因此，当使用完自己创建的Isolate后，最好调用newIsolate.kill(priority: Isolate.immediate);将Isolate立即杀死。
 
 ### Flutter中创建Isolate
+
 无论如何，在Dart中创建一个Isolate都显得有些繁琐，可惜的是Dart官方并未提供更高级封装。但是，如果想在Flutter中创建Isolate，则有更简便的API，这是由Flutter官方进一步封装ReceivePort而提供的更简洁API。详细API文档
 
 使用compute函数来创建新的Isolate并执行耗时任务
 
-```java
+```dart
 import 'package:flutter/foundation.dart';
 import  'dart:io';
 
@@ -221,11 +222,17 @@ compute函数有两个必须的参数，
 需要注意，使用compute应导入'package:flutter/foundation.dart'包。
 
 使用场景
-　　Isolate虽好，但也有合适的使用场景，不建议滥用Isolate，应尽可能多的使用Dart中的事件循环机制去处理异步任务，这样才能更好的发挥Dart语言的优势。
+
+Isolate虽好，但也有合适的使用场景，不建议滥用Isolate，应尽可能多的使用Dart中的事件循环机制去处理异步任务，这样才能更好的发挥Dart语言的优势。
+
 ### 那么应该在什么时候使用Future，什么时候使用Isolate呢？
+
 一个最简单的判断方法是根据某些任务的平均时间来选择：
 
-　　方法执行在几毫秒或十几毫秒左右的，应使用Future，如果一个任务需要几百毫秒或之上的，则建议创建单独的Isolate
+方法执行在几毫秒或十几毫秒左右的，应使用Future，
+
+如果一个任务需要几百毫秒或之上的，则建议创建单独的Isolate
+
 除此之外，还有一些可以参考的场景
 
 - JSON 解码
