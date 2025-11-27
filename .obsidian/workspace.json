@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-11-27-Dart-发布库.md",
+                "file": "_posts/2024-08-13-Dart-基础概念和内部原理.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-11-27-Dart-发布库"
+              "title": "2024-08-13-Dart-基础概念和内部原理"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2025-11-27-Dart-发布库.md",
+                "file": "_posts/2024-08-13-Dart-基础概念和内部原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-11-27-Dart-发布库 的反向链接列表"
+              "title": "2024-08-13-Dart-基础概念和内部原理 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2025-11-27-Dart-发布库.md",
+                "file": "_posts/2024-08-13-Dart-基础概念和内部原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-11-27-Dart-发布库 的出链列表"
+              "title": "2024-08-13-Dart-基础概念和内部原理 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2025-11-27-Dart-发布库.md",
+                "file": "_posts/2024-08-13-Dart-基础概念和内部原理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-11-27-Dart-发布库 的大纲"
+              "title": "2024-08-13-Dart-基础概念和内部原理 的大纲"
             }
           }
         ]
@@ -171,16 +171,18 @@
   },
   "active": "38a584f393a0c738",
   "lastOpenFiles": [
+    "_posts/2025-11-27-Dart-注解@pragma.md",
+    "_posts/_2025-11-27-1 1.md",
     "_posts/2024-08-13-Dart-基础概念和内部原理.md",
-    "_posts/2025-11-27-Dart-内存管理.md",
-    "_posts/2025-11-27-Dart-Isolate.md",
-    "_posts/2025-11-27-Dart-异步.md",
+    "_posts/2025-11-27-Dart-集合.md",
     "_posts/2025-11-27-Dart-发布库.md",
+    "_posts/2025-11-27-Dart-内存管理.md",
+    "_posts/2025-11-27-Dart-异步.md",
+    "_posts/2025-11-27-Dart-Isolate.md",
     "assets/img/dart/pub-2.png",
     "assets/img/dart/未确认 871408.crdownload",
     "assets/img/dart/pub-1.png",
     "assets/img/dart/未确认 355301.crdownload",
-    "_posts/_2025-11-27-1 1.md",
     "assets/img/dart/memory-5.png",
     "assets/img/dart/未确认 95939.crdownload",
     "assets/img/dart/memory-4.png",
@@ -214,7 +216,6 @@
     "_posts/2024-09-20-Dart-语法规范.md",
     "_posts/2024-09-23-Dart-类型.md",
     "_posts/2024-09-26-Dart-流程控制.md",
-    "_posts/2024-09-24-Dart-操作符.md",
-    "_posts/2024-09-27-Dart-错误处理.md"
+    "_posts/2024-09-24-Dart-操作符.md"
   ]
 }
