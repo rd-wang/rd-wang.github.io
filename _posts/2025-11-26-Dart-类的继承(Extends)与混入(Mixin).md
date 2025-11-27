@@ -2,10 +2,10 @@
 title: Dart-类的继承(Extends)与混入(Mixin)
 date: 2025-11-26 19:29:04 +0800
 categories:
-  - dart
+  - Dart
 tags:
-  - dart
-  - flutter
+  - Dart
+  - Flutter
 description: 本文深入探讨Dart语言的高级特性，包括继承、函数重写、操作符重写、抽象类、接口、泛型继承、混入（mixin）及其实现细节。
 math: true
 ---

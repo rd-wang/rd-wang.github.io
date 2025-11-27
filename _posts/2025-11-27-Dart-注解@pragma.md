@@ -2,10 +2,10 @@
 title: Dart-注解@pragma
 date: 2025-11-27 9:04:57 +0800
 categories:
-  - dart
+  - Dart
 tags:
-  - dart
-  - flutter
+  - Dart
+  - Flutter
 description: "Dart的`@pragma(vm:entry-point, ...)`注解，用于指示AOT预编译器处理从本机代码直接访问的类、方法和字段。该注解对于确保预编译时的正确性和混淆后的符号保留至关重要。内容涵盖了语法、应用场景，以及如何在类、方法和字段上使用该注解。"
 math: true
 ---

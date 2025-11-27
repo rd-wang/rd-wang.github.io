@@ -2,10 +2,10 @@
 title: 模版说明
 date: 2024-9-14 10:10:12 +0800
 categories:
-  - template
+  - Template
 tags:
-  - dart
-  - flutter
+  - Dart
+  - Flutter
   - 模版
 description: 模版说明
 math: true

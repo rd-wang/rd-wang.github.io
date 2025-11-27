@@ -2,10 +2,10 @@
 title: Dart-dynamic-var-object的区别
 date: 2025-11-26 19:05:33 +0800
 categories:
-  - dart
+  - Dart
 tags:
-  - dart
-  - flutter
+  - Dart
+  - Flutter
 description: var定义的类型是不可变的，dynamic和object类型是可以变的，而dynamic 与object 的最大的区别是在静态类型检查上 
 math: true
 ---

@@ -2,10 +2,10 @@
 title: Dart-Isolate
 date: 2025-11-27 10:18:33 +0800
 categories:
-  - dart
+  - Dart
 tags:
-  - dart
-  - flutter
+  - Dart
+  - Flutter
 description: Dart中的协程
 math: true
 ---

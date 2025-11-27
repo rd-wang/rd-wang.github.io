@@ -2,10 +2,10 @@
 title: Dart-Typedefs
 date: 2025-11-26 17:31:16 +0800
 categories:
-  - dart
+  - Dart
 tags:
-  - dart
-  - flutter
+  - Dart
+  - Flutter
 description: 函数也是对象，就想字符和数字对象一样。 使用 `typedef `，或者 function-type alias 为函数起一个别名
 math: true
 ---
