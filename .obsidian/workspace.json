@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-13-Dart-基础概念和内部原理.md",
+                "file": "_posts/2025-11-27-Dart-取消Future.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2024-08-13-Dart-基础概念和内部原理"
+              "title": "2025-11-27-Dart-取消Future"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-13-Dart-基础概念和内部原理.md",
+                "file": "_posts/2025-11-27-Dart-取消Future.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2024-08-13-Dart-基础概念和内部原理 的反向链接列表"
+              "title": "2025-11-27-Dart-取消Future 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-13-Dart-基础概念和内部原理.md",
+                "file": "_posts/2025-11-27-Dart-取消Future.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2024-08-13-Dart-基础概念和内部原理 的出链列表"
+              "title": "2025-11-27-Dart-取消Future 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-13-Dart-基础概念和内部原理.md",
+                "file": "_posts/2025-11-27-Dart-取消Future.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2024-08-13-Dart-基础概念和内部原理 的大纲"
+              "title": "2025-11-27-Dart-取消Future 的大纲"
             }
           }
         ]
@@ -171,8 +171,8 @@
   },
   "active": "38a584f393a0c738",
   "lastOpenFiles": [
-    "_posts/2025-11-27-Dart-Future-Cancel.md",
     "_posts/2024-08-13-Dart-基础概念和内部原理.md",
+    "_posts/2025-11-27-Dart-取消Future.md",
     "_posts/2025-11-27-Dart-注解@pragma.md",
     "_posts/_2025-11-27-1 1.md",
     "_posts/2025-11-27-Dart-集合.md",
