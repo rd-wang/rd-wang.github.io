@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/_2019-08-09-getting-started.md",
-                "mode": "preview",
+                "file": "_posts/2025-11-27-Dart-集合.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "_2019-08-09-getting-started"
+              "title": "2025-11-27-Dart-集合"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/_2019-08-09-getting-started.md",
+                "file": "_posts/2025-11-27-Dart-集合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "_2019-08-09-getting-started 的反向链接列表"
+              "title": "2025-11-27-Dart-集合 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/_2019-08-09-getting-started.md",
+                "file": "_posts/2025-11-27-Dart-集合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "_2019-08-09-getting-started 的出链列表"
+              "title": "2025-11-27-Dart-集合 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/_2019-08-09-getting-started.md",
+                "file": "_posts/2025-11-27-Dart-集合.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "_2019-08-09-getting-started 的大纲"
+              "title": "2025-11-27-Dart-集合 的大纲"
             }
           }
         ]
@@ -171,6 +171,8 @@
   },
   "active": "38a584f393a0c738",
   "lastOpenFiles": [
+    "_posts/2025-11-27-Dart-集合.md~",
+    "_posts/_2019-08-09-getting-started.md",
     "_posts/2024-07-30-鸡尾酒排序.md",
     "_posts/2024-09-23-Dart-类型.md",
     "_posts/2025-11-27-Dart-任务调度.md",
@@ -205,8 +207,6 @@
     "_posts/2025-11-26-Dart-单例的四种写法.md",
     "_posts/2024-11-26-Dart-库.md",
     "_posts/2025-11-26-Dart-Typedefs.md",
-    "_posts/2024-09-24-Dart-注解.md",
-    "_posts/2024-11-26-Dart-元数据.md",
     "assets/img/dart/pub-2.png",
     "assets/img/dart/pub-1.png",
     "assets/img/dart/memory-5.png",
