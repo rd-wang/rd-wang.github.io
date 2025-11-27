@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-11-26-Dart-取消Future.md",
+                "file": "_posts/2024-08-13-Dart-基础概念和内部原理.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-11-26-Dart-取消Future"
+              "title": "2024-08-13-Dart-基础概念和内部原理"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2025-11-26-Dart-取消Future.md",
+                "file": "_posts/2024-08-13-Dart-基础概念和内部原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-11-26-Dart-取消Future 的反向链接列表"
+              "title": "2024-08-13-Dart-基础概念和内部原理 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2025-11-26-Dart-取消Future.md",
+                "file": "_posts/2024-08-13-Dart-基础概念和内部原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-11-26-Dart-取消Future 的出链列表"
+              "title": "2024-08-13-Dart-基础概念和内部原理 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2025-11-26-Dart-取消Future.md",
+                "file": "_posts/2024-08-13-Dart-基础概念和内部原理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-11-26-Dart-取消Future 的大纲"
+              "title": "2024-08-13-Dart-基础概念和内部原理 的大纲"
             }
           }
         ]
@@ -171,9 +171,28 @@
   },
   "active": "38a584f393a0c738",
   "lastOpenFiles": [
+    "_posts/_2025-11-27-1 1.md",
+    "_posts/2025-11-27-Dart-事件循环.md",
+    "_posts/2025-11-27-Dart-任务调度.md",
+    "_posts/2025-11-27-Dart-异步.md",
+    "assets/img/dart/event-loop-5.png",
+    "assets/img/dart/未确认 204665.crdownload",
     "_posts/2024-08-13-Dart-基础概念和内部原理.md",
-    "_posts/2025-11-26-Dart-取消Future.md",
-    "_posts/_2025-11-26-1.md",
+    "assets/img/dart/event-loop-4.jpeg",
+    "assets/img/dart/未确认 535973.crdownload",
+    "assets/img/dart/event-loop-3.png",
+    "assets/img/dart/未确认 828455.crdownload",
+    "assets/img/dart/event-loop-2.png",
+    "assets/img/dart/未确认 979965.crdownload",
+    "assets/img/dart/event-loop-1.png",
+    "assets/img/dart/未确认 834360.crdownload",
+    "_posts/2025-11-27-Dart-取消Future.md",
+    "_posts/2025-11-27-Dart-反射.md",
+    "_posts/2024-07-25-基数排序.md",
+    "assets/img/dart/reflection-2.jpeg",
+    "assets/img/dart/未确认 722385.crdownload",
+    "assets/img/dart/reflection-1.jpeg",
+    "assets/img/dart/未确认 907794.crdownload",
     "_posts/2024-09-24-Dart-注解.md",
     "_posts/2024-11-26-Dart-生成器.md",
     "_posts/2024-11-26-Dart-库.md",
@@ -197,25 +216,6 @@
     "assets/img/dart/mixin-2.png",
     "assets/img/dart/未确认 245663.crdownload",
     "assets/img/dart/mixin-1.png",
-    "assets/img/dart/未确认 782803.crdownload",
-    "assets/img/dart/新建文件夹",
-    "_posts/2024-11-26-Dart-元数据.md",
-    "_posts/2025-11-26-Dart-Typedefs.md",
-    "_posts/2024-11-25-Dart-异步.md",
-    "_posts/2024-11-25-Dart-泛型.md",
-    "_posts/2024-11-25-Dart-词法作用域.md",
-    "assets/img/favicons/site.webmanifest",
-    "assets/img/favicons/browserconfig.xml",
-    "assets/img/site.webmanifest",
-    "assets/img/safari-pinned-tab.svg",
-    "assets/img/mstile-150x150.png",
-    "assets/img/favicon-32x32.png",
-    "assets/img/favicon-16x16.png",
-    "assets/img/favicon.ico",
-    "assets/img/browserconfig.xml",
-    "assets/img/apple-touch-icon.png",
-    "assets/img/android-chrome-512x512.png",
-    "assets/img/android-chrome-192x192.png",
-    "assets/img/dart/未确认 109308.crdownload"
+    "assets/img/dart/未确认 782803.crdownload"
   ]
 }
