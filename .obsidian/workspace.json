@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/android/2025-11-27-Android-平台架构.md",
+                "file": "_posts/android/2025-11-27-Android-安全性最佳实践.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-11-27-Android-平台架构"
+              "title": "2025-11-27-Android-安全性最佳实践"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/android/2025-11-27-Android-平台架构.md",
+                "file": "_posts/android/2025-11-27-Android-安全性最佳实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-11-27-Android-平台架构 的反向链接列表"
+              "title": "2025-11-27-Android-安全性最佳实践 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/android/2025-11-27-Android-平台架构.md",
+                "file": "_posts/android/2025-11-27-Android-安全性最佳实践.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-11-27-Android-平台架构 的出链列表"
+              "title": "2025-11-27-Android-安全性最佳实践 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/android/2025-11-27-Android-平台架构.md",
+                "file": "_posts/android/2025-11-27-Android-安全性最佳实践.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-11-27-Android-平台架构 的大纲"
+              "title": "2025-11-27-Android-安全性最佳实践 的大纲"
             }
           }
         ]
@@ -171,8 +171,13 @@
   },
   "active": "61944eecf1cbd5ad",
   "lastOpenFiles": [
+    "_posts/android/_2025-11-27.md",
+    "_posts/android/2025-11-27-Android-安全性最佳实践.md",
+    "_posts/android/base/2025-11-27-Android-平台架构.md",
+    "_posts/android/safe",
+    "_posts/android/base",
     "_posts/_2025-11-27-1 1.md",
-    "_posts/android/2025-11-27-Android-平台架构.md",
+    "_posts/android/2025-11-27-Android-系统源码进阶学习计划.md",
     "_posts/android",
     "_posts/2024-09-14-Flutter-App项目模版说明.md",
     "_posts/dart/2024-11-26-Dart-库.md",
@@ -195,9 +200,6 @@
     "_posts/dart/2024-08-13-Dart-基础概念和内部原理.md",
     "_posts/dart/2025-11-27-Dart-注解@pragma.md",
     "_posts/dart/2025-11-27-Dart-异步.md",
-    "_posts/dart/2025-11-27-Dart-事件循环.md",
-    "_posts/dart/2025-11-27-Dart-任务调度.md",
-    "_posts/dart/2025-11-27-Dart-取消Future.md",
     "_posts/dart",
     "_posts/新建文件夹 (2)",
     "_posts/新建文件夹",
@@ -205,8 +207,6 @@
     "_posts/2025-11-27-Dart-集合.md~",
     "_posts/2025-11-27-Dart-取消Future.md~",
     "_posts/2024-09-27-Dart-错误处理.md~",
-    "_posts/2024-11-25-Dart-泛型.md~",
-    "_posts/2024-11-26-Dart-库.md~",
     "assets/img/dart/pub-2.png",
     "assets/img/dart/pub-1.png",
     "assets/img/dart/memory-5.png",
