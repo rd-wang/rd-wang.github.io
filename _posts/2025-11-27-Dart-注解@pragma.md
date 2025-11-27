@@ -11,8 +11,8 @@ math: true
 ---
 > [Dart语言详解](https://rd-wang.github.io/posts/Dart-基础概念和内部原理/)
 
-# `vm:entry-point` 语用
-注释`@pragma("vm:entry-point", ...)` 必须放在类或成员上，以表明它可以在 AOT 模式下直接从本机或 VM 代码解析、分配或调用。
+# `vm:entry-point` 含义
+注解`@pragma("vm:entry-point", ...)` 必须放在类或成员上，以表明它可以在 AOT 模式下直接从本机或 VM 代码解析、分配或调用。
 
 ### 背景
 Dart VM 预编译器（AOT 编译器）执行整个程序优化，例如摇树和类型流分析 (TFA)，以减少生成的编译应用程序的大小并提高其性能。这种优化假设编译器可以看到整个 Dart 程序，并且能够发现和分析所有可能在运行时执行的 Dart 函数和成员。虽然 Dart 代码完全可用于预编译器，但嵌入器的本机代码和本机方法是编译器无法访问的。这样的原生代码可以通过原生 Dart API 回调到 Dart。

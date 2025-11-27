@@ -1,12 +1,12 @@
 ---
-title: Dart-取消Future
+title: Dart-Future-Cancel
 date: 2025-11-27 19:50:10 +0800
 categories:
   - dart
 tags:
   - dart
   - flutter
-description: 
+description: Futrue无法取消，那么应该如何避免无用的Future回调
 math: true
 ---
 > [Dart语言详解](https://rd-wang.github.io/posts/Dart-基础概念和内部原理/)
