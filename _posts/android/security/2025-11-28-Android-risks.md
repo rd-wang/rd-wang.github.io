@@ -1,5 +1,5 @@
 ---
-title: Android-降低安全风险
+title: Android-常见风险
 date: 2025-11-28 10:43:29 +0800
 categories:
   - Android
@@ -99,7 +99,7 @@ math: true
 - [StrandHogg 攻击/任务相关性漏洞](https://developer.android.com/topic/security/risks/strandhogg?hl=zh-cn)
 - [点按劫持](https://developer.android.com/topic/security/risks/tapjacking?hl=zh-cn)
 - [android:debuggable](https://rd-wang.github.io/posts/Android-risks-android-debuggable/)
-- [android:exported](https://developer.android.com/topic/security/risks/android-exported?hl=zh-cn)
+- [android:exported](https://rd-wang.github.io/posts/Android-risks-android-exported/)
 
 ### MASVS-CODE：代码质量
 

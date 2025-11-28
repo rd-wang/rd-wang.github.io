@@ -11,7 +11,7 @@ tags:
   - Security
   - Risks
   - OWASP
-description:
+description: 设置应用是否可调试
 math: true
 ---
 
