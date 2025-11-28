@@ -173,7 +173,6 @@ fun belongsToCurrentApplication(ctx: Context, uri: Uri): Boolean {
 ```
 
 [Java](https://developer.android.com/privacy-and-security/risks/content-resolver?hl=zh-cn#java)
-
 ```java
 boolean belongsToCurrentApplication(Context ctx, Uri uri){
     String authority = uri.getAuthority();
