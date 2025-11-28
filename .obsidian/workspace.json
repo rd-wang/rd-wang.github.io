@@ -13,9 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/android/2025-11-27-Android-安全性最佳实践.md",
-                "mode": "preview",
-                "source": true
+                "file": "_posts/android/security/2025-11-27-Android-安全性最佳实践.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "2025-11-27-Android-安全性最佳实践"
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/android/2025-11-27-Android-安全性最佳实践.md",
+                "file": "_posts/android/security/2025-11-27-Android-安全性最佳实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/android/2025-11-27-Android-安全性最佳实践.md",
+                "file": "_posts/android/security/2025-11-27-Android-安全性最佳实践.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/android/2025-11-27-Android-安全性最佳实践.md",
+                "file": "_posts/android/security/2025-11-27-Android-安全性最佳实践.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -171,14 +172,19 @@
   },
   "active": "61944eecf1cbd5ad",
   "lastOpenFiles": [
-    "_posts/android/_2025-11-27.md",
-    "_posts/android/2025-11-27-Android-安全性最佳实践.md",
-    "_posts/android/2025-11-27-Android-安全性最佳实践.md~",
-    "_posts/android/base/2025-11-27-Android-平台架构.md",
+    "_posts/android/security/2025-11-27-Android-三方SDK安全性.md",
+    "_posts/android/security/2025-11-28-Android-提高应用的安全性.md",
+    "_posts/android/security/2025-11-27-Android-安全性最佳实践.md",
     "_posts/android/2025-11-27-Android-系统源码进阶学习计划.md",
-    "_posts/android/safe",
+    "_posts/android/base/2025-11-27-Android-平台架构.md",
+    "_posts/dart/2024-08-13-Dart-基础概念和内部原理.md",
+    "_posts/android/security/_2025-11-27-.md",
+    "_posts/android/base/_2025-11-27-.md",
+    "_posts/_2025-11-27-.md",
+    "_posts/dart/_2025-11-27-1 1.md",
+    "_posts/android/2025-11-27-Android-安全性最佳实践.md~",
+    "_posts/android/security",
     "_posts/android/base",
-    "_posts/_2025-11-27-1 1.md",
     "_posts/android",
     "_posts/2024-09-14-Flutter-App项目模版说明.md",
     "_posts/dart/2024-11-26-Dart-库.md",
@@ -196,10 +202,6 @@
     "_posts/dart/2024-09-23-Dart-类型.md",
     "_posts/dart/2024-09-20-Dart-语法规范.md",
     "_posts/dart/2024-09-20-Dart-变量.md",
-    "_posts/dart/2024-09-14-Flutter-App项目模版说明.md",
-    "_posts/dart/2024-08-14-Dart-语言概览.md",
-    "_posts/dart/2024-08-13-Dart-基础概念和内部原理.md",
-    "_posts/dart/2025-11-27-Dart-注解@pragma.md",
     "_posts/dart",
     "_posts/新建文件夹 (2)",
     "_posts/新建文件夹",
