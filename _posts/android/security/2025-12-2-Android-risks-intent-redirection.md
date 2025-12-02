@@ -51,7 +51,6 @@ if (name.packagename == "safe_package" && name.className == "safe_class") {
 }
 ```
 [Java](https://developer.android.com/privacy-and-security/risks/intent-redirection#java)
-
 ```java
 Intent intent = getIntent()
 // Get the component name of the nested intent.
