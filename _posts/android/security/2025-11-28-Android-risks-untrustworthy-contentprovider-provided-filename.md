@@ -179,7 +179,6 @@ try {
     // Handle exception
 }
 ```
-贡献者：Microsoft 威胁情报的 Dimitrios Valsamaras 和 Michael Peck
 
 ## 资源
 
