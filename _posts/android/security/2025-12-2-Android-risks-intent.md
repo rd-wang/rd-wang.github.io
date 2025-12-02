@@ -1,6 +1,6 @@
 ---
-title: Android-安全风险-intent重定向
-date: 2025-12-2 12:00:23 +0800
+title: Android-安全风险-intent 重定向
+date: 2025-12-2 11:16:53 +0800
 categories:
   - Android
   - Security
@@ -14,7 +14,6 @@ tags:
 description: 当攻击者能够部分或完全控制用于在易受攻击的应用程序上下文中启动新组件的意图的内容时，就会发生意图重定向。
 math: true
 ---
-
 # intent 重定向
 
 **OWASP 类别：** [MASVS-PLATFORM：平台交互](https://mas.owasp.org/MASVS/09-MASVS-PLATFORM)
