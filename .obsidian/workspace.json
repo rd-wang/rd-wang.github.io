@@ -13,13 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/android/security/2025-12-2-Android-risks-intent-重定向.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
+                "file": "_posts/android/security/2025-12-2-Android-risks-intent-redirection.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-2-Android-risks-intent-重定向"
+              "title": "2025-12-2-Android-risks-intent-redirection"
             }
           }
         ]
@@ -79,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 473.5
   },
   "right": {
     "id": "9c6b8ce129e8b6ef",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/android/security/2025-12-2-Android-risks-intent-重定向.md",
+                "file": "_posts/android/security/2025-12-2-Android-risks-intent-redirection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-12-2-Android-risks-intent-重定向 的反向链接列表"
+              "title": "2025-12-2-Android-risks-intent-redirection 的反向链接列表"
             }
           },
           {
@@ -114,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/android/security/2025-12-2-Android-risks-intent-重定向.md",
+                "file": "_posts/android/security/2025-12-2-Android-risks-intent-redirection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-12-2-Android-risks-intent-重定向 的出链列表"
+              "title": "2025-12-2-Android-risks-intent-redirection 的出链列表"
             }
           },
           {
@@ -143,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/android/security/2025-12-2-Android-risks-intent-重定向.md",
+                "file": "_posts/android/security/2025-12-2-Android-risks-intent-redirection.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-12-2-Android-risks-intent-重定向 的大纲"
+              "title": "2025-12-2-Android-risks-intent-redirection 的大纲"
             }
           }
         ]
@@ -173,10 +172,10 @@
   "active": "61944eecf1cbd5ad",
   "lastOpenFiles": [
     "_posts/android/security/2025-12-2-Android-risks-intent-redirection.md",
-    "_posts/android/security/2025-12-1-Android-risks-insecure-broadcast-receiver.md",
     "_posts/android/security/2025-12-2-Android-risks-intent-重定向.md",
-    "_posts/android/security/2025-12-2-Android-risks-insecure-dns-setup.md",
     "_posts/android/security/2025-12-2-Android-risks-insecure-machine-to-machine.md",
+    "_posts/android/security/2025-12-1-Android-risks-insecure-broadcast-receiver.md",
+    "_posts/android/security/2025-12-2-Android-risks-insecure-dns-setup.md",
     "_posts/android/security/_2025-12-2-Android-risks-.md",
     "_posts/android/security/2025-12-1-Android-risks-insecure-library.md",
     "_posts/android/security/_2025-12-1-Android-risks- 1.md",
