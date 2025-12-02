@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/android/security/2025-11-28-Android-risks-untrustworthy-contentprovider-provided-filename.md",
+                "file": "_posts/android/security/2025-12-2-Android-risks-intent-重定向.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-11-28-Android-risks-untrustworthy-contentprovider-provided-filename"
+              "title": "2025-12-2-Android-risks-intent-重定向"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/android/security/2025-11-28-Android-risks-untrustworthy-contentprovider-provided-filename.md",
+                "file": "_posts/android/security/2025-12-2-Android-risks-intent-重定向.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-11-28-Android-risks-untrustworthy-contentprovider-provided-filename 的反向链接列表"
+              "title": "2025-12-2-Android-risks-intent-重定向 的反向链接列表"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/android/security/2025-11-28-Android-risks-untrustworthy-contentprovider-provided-filename.md",
+                "file": "_posts/android/security/2025-12-2-Android-risks-intent-重定向.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-11-28-Android-risks-untrustworthy-contentprovider-provided-filename 的出链列表"
+              "title": "2025-12-2-Android-risks-intent-重定向 的出链列表"
             }
           },
           {
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/android/security/2025-11-28-Android-risks-untrustworthy-contentprovider-provided-filename.md",
+                "file": "_posts/android/security/2025-12-2-Android-risks-intent-重定向.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-11-28-Android-risks-untrustworthy-contentprovider-provided-filename 的大纲"
+              "title": "2025-12-2-Android-risks-intent-重定向 的大纲"
             }
           }
         ]
@@ -172,7 +172,14 @@
   },
   "active": "61944eecf1cbd5ad",
   "lastOpenFiles": [
-    "_posts/android/security/_2025-11-28-Android-risks-.md",
+    "_posts/android/security/2025-12-1-Android-risks-insecure-broadcast-receiver.md",
+    "_posts/android/security/2025-12-2-Android-risks-intent-重定向.md",
+    "_posts/android/security/2025-12-2-Android-risks-insecure-dns-setup.md",
+    "_posts/android/security/2025-12-2-Android-risks-insecure-machine-to-machine.md",
+    "_posts/android/security/_2025-12-2-Android-risks-.md",
+    "_posts/android/security/2025-12-1-Android-risks-insecure-library.md",
+    "_posts/android/security/_2025-12-1-Android-risks- 1.md",
+    "_posts/android/security/2025-12-1-Android-risks-insecure-api-usage.md",
     "_posts/android/security/2025-11-28-Android-risks-untrustworthy-contentprovider-provided-filename.md",
     "_posts/android/security/2025-11-28-Android-risks-file-providers.md",
     "_posts/android/security/2025-11-28-Android-risks-content-resolver.md",
@@ -191,17 +198,10 @@
     "_posts/android/security/2025-11-28-Android-提高应用的安全性.md",
     "_posts/android/security/2025-11-27-Android-安全性最佳实践.md",
     "_posts/android/security/2025-11-27-Android-三方SDK安全性.md",
-    "_posts/android/2025-11-27-Android-系统源码进阶学习计划.md",
-    "_posts/android/base/2025-11-27-Android-平台架构.md",
-    "_posts/dart/2024-08-13-Dart-基础概念和内部原理.md",
-    "_posts/android/base/_2025-11-27-.md",
-    "_posts/_2025-11-27-.md",
-    "_posts/dart/_2025-11-27-1 1.md",
     "_posts/android/2025-11-27-Android-安全性最佳实践.md~",
     "_posts/android/security",
     "_posts/android/base",
     "_posts/android",
-    "_posts/2024-09-14-Flutter-App项目模版说明.md",
     "_posts/dart",
     "_posts/新建文件夹 (2)",
     "_posts/新建文件夹",
