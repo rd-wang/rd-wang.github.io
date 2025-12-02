@@ -172,6 +172,7 @@
   },
   "active": "61944eecf1cbd5ad",
   "lastOpenFiles": [
+    "_posts/android/security/2025-12-2-Android-risks-intent-redirection.md",
     "_posts/android/security/2025-12-1-Android-risks-insecure-broadcast-receiver.md",
     "_posts/android/security/2025-12-2-Android-risks-intent-重定向.md",
     "_posts/android/security/2025-12-2-Android-risks-insecure-dns-setup.md",
@@ -197,7 +198,6 @@
     "_posts/android/security/_2025-11-28-Android-risks-cleartext-communications.md",
     "_posts/android/security/2025-11-28-Android-提高应用的安全性.md",
     "_posts/android/security/2025-11-27-Android-安全性最佳实践.md",
-    "_posts/android/security/2025-11-27-Android-三方SDK安全性.md",
     "_posts/android/2025-11-27-Android-安全性最佳实践.md~",
     "_posts/android/security",
     "_posts/android/base",
