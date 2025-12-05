@@ -11,7 +11,7 @@ tags:
   - Security
   - Risks
   - OWASP
-description: 当攻击者能够部分或完全控制用于在易受攻击的应用程序上下文中启动新组件的意图的内容时，就会发生意图重定向。
+description: 当在存在漏洞的应用上下文中启动新组件时，如果攻击者能够部分或完全控制 intent 内容，就会出现 intent 重定向问题。
 math: true
 ---
 
@@ -21,9 +21,9 @@ math: true
 
 ## 概述
 
-当攻击者能够部分或完全控制用于存在漏洞的应用上下文中启动新组件的 intent 内容时，就会出现 intent 重定向问题。
+当在存在漏洞的应用上下文中启动新组件时，如果攻击者能够部分或完全控制 intent 内容，就会出现 intent 重定向问题。
 
-用于启动新组件的意图可以通过多种方式提供，最常见的方式是将其作为字段中的序列化意图`extras`，或者将其编组为字符串并进行解析。对参数进行部分控制也可以达到同样的效果。
+用于启动新组件的 intent 可以通过多种方式提供，最常见的方式是将其作为字段中的序列化 intent `extras`，或者将其编组为字符串并进行解析。对参数进行部分控制也可以达到同样的效果。
 
 ## 影响
 
@@ -33,10 +33,10 @@ math: true
 
 通常情况下，不要公开与重定向嵌套 intent 相关的功能。如果无法避免，请采取以下缓解措施：
 
-- 对打包信息进行适当的清理。务必记住检查或清除标志（`FLAG_GRANT_READ_URI_PERMISSION, FLAG_GRANT_WRITE_URI_PERMISSION, FLAG_GRANT_PERSISTABLE_URI_PERMISSION, and FLAG_GRANT_PREFIX_URI_PERMISSION`），并检查意图重定向到哪里。[`IntentSanitizer`](https://developer.android.com/reference/kotlin/androidx/core/content/IntentSanitizer)可以帮助完成此过程。
-- 使用[`PendingIntent`](https://developer.android.com/guide/components/intents-filters#PendingIntent)对象。这可以防止组件被导出，并使目标操作意图不可变。
+- 对打包信息进行适当的清理。务必记住检查或清除标志（`FLAG_GRANT_READ_URI_PERMISSION, FLAG_GRANT_WRITE_URI_PERMISSION, FLAG_GRANT_PERSISTABLE_URI_PERMISSION, and FLAG_GRANT_PREFIX_URI_PERMISSION`），并检查 intent 重定向到哪里。[`IntentSanitizer`](https://developer.android.com/reference/kotlin/androidx/core/content/IntentSanitizer)可以帮助完成此过程。
+- 使用[`PendingIntent`](https://developer.android.com/guide/components/intents-filters#PendingIntent)对象。这可以防止组件被导出，并使目标操作 intent 不可变。
 
-应用程序可以使用以下方法检查意图的重定向位置 [`ResolveActivity`](https://developer.android.com/reference/android/content/Intent#resolveActivity\(android.content.pm.PackageManager\))：
+应用程序可以使用 [`ResolveActivity`](https://developer.android.com/reference/android/content/Intent#resolveActivity\(android.content.pm.PackageManager\))方法检查 intent 的重定向位置：
 
 [Kotlin](https://developer.android.com/privacy-and-security/risks/intent-redirection#kotlin)
 ```kotlin
@@ -107,20 +107,20 @@ iSublevel?.let { startActivity(it) }
 
 #### 常见错误
 
-- 检查是否`getCallingActivity()`返回非空值。恶意应用程序可能会为此函数提供空值。
+- 检查`getCallingActivity()`是否返回非空值。恶意应用程序可能会为此函数提供空值。
 - 假设`checkCallingPermission()`在所有上下文中都能正常工作，或者当该方法实际返回整数时会抛出异常。
 
 #### 调试功能
 
-对于面向 Android 12（API 级别 31）或更高版本的应用，您可以启用 [调试功能](https://developer.android.com/guide/components/intents-filters#DetectUnsafeIntentLaunches)，在某些情况下，该功能可以帮助您检测您的应用是否正在执行不安全的 intent 启动。
+对于面向 Android 12（API 级别 31）或更高版本的应用，可以启用 [调试功能](https://developer.android.com/guide/components/intents-filters#DetectUnsafeIntentLaunches)，在某些情况下，该功能可以帮助检测应用是否正在执行不安全的 intent 启动。
 
-如果您的应用执行以下**两个**操作，系统将检测到不安全的意图启动，并`StrictMode`发生违规：
+如果您的应用执行以下**两个**操作，系统将检测到不安全的 intent 启动，并`StrictMode`发生违规：
 
 - 您的应用会将嵌套的 intent 从已传递 intent 的 extra 中解包出来。
-- 您的应用会立即使用该嵌套的意图启动一个应用组件，例如将意图传递给`startActivity()`、`startService()`或`bindService()`。
+- 您的应用会立即使用该嵌套的 intent 启动一个应用组件，例如将 intent 传递给`startActivity()`、`startService()`或`bindService()`。
 
 ## 资源
 
-- [意图重定向的补救措施](https://support.google.com/faqs/answer/9267555)
-- [意图和意图过滤器](https://developer.android.com/guide/components/intents-filters#DetectUnsafeIntentLaunches)
+- [ intent 重定向的补救措施](https://support.google.com/faqs/answer/9267555)
+- [ intent 和 intent 过滤器](https://developer.android.com/guide/components/intents-filters#DetectUnsafeIntentLaunches)
 

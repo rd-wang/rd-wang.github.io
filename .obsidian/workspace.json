@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/android/security/2025-12-2-Android-risks-intent-redirection.md",
+                "file": "_posts/android/security/2025-12-5-Android-risks-backup-best-practices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-2-Android-risks-intent-redirection"
+              "title": "2025-12-5-Android-risks-backup-best-practices"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/android/security/2025-12-2-Android-risks-intent-redirection.md",
+                "file": "_posts/android/security/2025-12-5-Android-risks-backup-best-practices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-12-2-Android-risks-intent-redirection 的反向链接列表"
+              "title": "2025-12-5-Android-risks-backup-best-practices 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/android/security/2025-12-2-Android-risks-intent-redirection.md",
+                "file": "_posts/android/security/2025-12-5-Android-risks-backup-best-practices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-12-2-Android-risks-intent-redirection 的出链列表"
+              "title": "2025-12-5-Android-risks-backup-best-practices 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/android/security/2025-12-2-Android-risks-intent-redirection.md",
+                "file": "_posts/android/security/2025-12-5-Android-risks-backup-best-practices.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-12-2-Android-risks-intent-redirection 的大纲"
+              "title": "2025-12-5-Android-risks-backup-best-practices 的大纲"
             }
           }
         ]
@@ -171,10 +171,15 @@
   },
   "active": "61944eecf1cbd5ad",
   "lastOpenFiles": [
-    "_posts/android/security/2025-12-2-Android-risks-intent.md",
+    "_posts/android/security/_2025-12-5-Android-risks-.md",
+    "_posts/android/security/2025-12-5-Android-risks-backup-best-practices.md",
+    "_posts/android/security/2025-12-5-Android-risks-pending-intent.md",
+    "_posts/android/security/2025-12-5-Android-risks-access-control-to-exported-components.md",
+    "_posts/android/security/2025-12-5-Android-risks-path-traversal.md",
+    "_posts/android/security/2025-12-5-Android-risks-log-info-disclosure.md",
     "_posts/android/security/2025-12-2-Android-risks-intent-redirection.md",
+    "_posts/android/security/2025-12-2-Android-risks-intent.md",
     "_posts/android/security/2025-12-2-Android-risks-insecure-dns-setup.md",
-    "_posts/android/security/_2025-12-2-Android-risks-.md",
     "_posts/android/security/2025-12-2-Android-risks-intent-重定向.md",
     "_posts/android/security/2025-12-2-Android-risks-insecure-machine-to-machine.md",
     "_posts/android/security/2025-12-1-Android-risks-insecure-broadcast-receiver.md",
@@ -192,11 +197,6 @@
     "_posts/android/security/2025-11-28-Android-risks-cross-app-scripting.md",
     "_posts/android/security/2025-11-28-Android-risks.md",
     "_posts/android/security/2025-11-28-Android-risks-cleartext-communications.md",
-    "_posts/android/security/2025-11-28-Android-risks-broken-cryptographic-algorithm.md",
-    "_posts/android/security/2025-11-28-Android-risks-android-debuggable.md",
-    "_posts/android/security/2025-11-28-Android-risks-android-exported.md",
-    "_posts/android/security/_2025-11-28-Android-risks-cleartext-communications.md",
-    "_posts/android/security/2025-11-28-Android-提高应用的安全性.md",
     "_posts/android/2025-11-27-Android-安全性最佳实践.md~",
     "_posts/android/security",
     "_posts/android/base",
