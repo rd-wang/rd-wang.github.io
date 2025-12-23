@@ -45,14 +45,18 @@ math: true
 您可以使用规则文件（通常称为 `backup_rules.xml` 并放置在 `res/xml` 应用文件夹中）指定要从备份中排除哪些数据。根据所使用的 Android 版本，备份规则的配置方式略有不同：
 
 - [对于 Android 12（API 级别 31）及更高版本](https://developer.android.com/guide/topics/data/autobackup?hl=zh-cn#include-exclude-android-12)，请向 `AndroidManifest.xml` 中的 `<application>` 元素添加 `android:dataExtractionRules` 属性：
-- xml `xml <application android:name="com.example.foo" android:dataExtractionRules="@xml/backup_rules_extraction"> … </application>`
+```xml 
+<application android:name="com.example.foo" android:dataExtractionRules="@xml/backup_rules_extraction"> … </application>
+```
 
 然后，根据应用的数据持久性和安全性要求，按照[更新后的配置格式](https://developer.android.com/guide/topics/data/autobackup?hl=zh-cn#xml-syntax-android-12)[配置](https://developer.android.com/guide/topics/data/autobackup?hl=zh-cn#include-exclude-android-12) `backup_rules.xml` 文件。
 
 `backup_rules.xml` 文件配置所需的格式允许开发者为云端和[设备到设备 (D2D) 传输](https://developer.android.com/about/versions/12/behavior-changes-12?hl=zh-cn#xml-changes)定义自定义备份规则。如果未设置 `<device-transfer>` 属性，系统会在点对点迁移期间传输所有应用数据。请务必注意，即使目标应用以 Android 12 或更高版本为目标平台，也应始终为搭载 Android 11（API 级别 30）或更低版本的设备指定包含[一组额外备份规则](https://developer.android.com/identity/data/autobackup?hl=zh-cn#include-exclude-android-11)的单独文件。
 
 - [对于 Android 11 及更低版本](https://developer.android.com/guide/topics/data/autobackup?hl=zh-cn#include-exclude-android-11)，请将 `android:fullBackupContent` 属性添加到 `AndroidManifest.xml` 中的 `<application>` 元素：
-- xml `xml <application android:name="com.example.foo" android:fullBackupContent="@xml/backup_rules_full"> … </application>`
+```xml 
+<application android:name="com.example.foo" android:fullBackupContent="@xml/backup_rules_full"> … </application>
+```
 
 然后，根据应用的数据持久性和安全要求，使用[备份用户数据](https://developer.android.com/guide/topics/data/autobackup?hl=zh-cn#include-exclude-android-11)一文中报告的语法配置 `backup_rules.xml` 文件。
 
