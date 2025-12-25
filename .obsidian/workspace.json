@@ -15,7 +15,7 @@
               "state": {
                 "file": "_posts/android/security/2025-12-25-Android-risks-tapjacking.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "2025-12-25-Android-risks-tapjacking"
@@ -74,7 +74,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -169,12 +170,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "aba79168b5fea5ef",
+  "active": "a99439d4439e2f58",
   "lastOpenFiles": [
+    "assets/img/android/risk/partial_occlusion.png",
+    "assets/img/android/risk/未确认 255474.crdownload",
+    "assets/img/android/risk/full_occlusion.png",
+    "assets/img/android/risk/未确认 817350.crdownload",
+    "_posts/sort/2024-07-26-计数排序.md",
+    "_posts/android/security/2025-12-25-Android-risks-tapjacking.md",
     "_posts/android/security/2025-12-23-Android-risks-strandhogg.md",
     "_posts/android/security/2025-12-23-Android-risks-sticky-broadcast.md",
     "_posts/android/security/_2025-12-23-Android-risks-.md",
-    "_posts/android/security/2025-12-25-Android-risks-tapjacking.md",
     "_posts/sort/2024-07-22-快速排序.md",
     "_posts/sort/2024-07-23-堆排序.md",
     "_posts/dart/2024-09-20-Dart-语法规范.md",
@@ -182,8 +188,6 @@
     "_posts/dart/2025-11-26-Dart-Typedefs.md",
     "未命名 1.base",
     "未命名.base",
-    "assets/img/android/risk/partial_occlusion.png",
-    "assets/img/android/risk/full_occlusion.png",
     "assets/img/android/risk",
     "assets/img/android",
     "assets/img/未命名.md",
@@ -201,14 +205,10 @@
     "_posts/android/security/2025-12-5-Android-risks-access-control-to-exported-components.md",
     "_posts/android/security/2025-12-5-Android-risks-path-traversal.md",
     "_posts/android/security/2025-12-5-Android-risks-log-info-disclosure.md",
-    "_posts/android/security/2025-12-2-Android-risks-intent-redirection.md",
-    "_posts/android/security/2025-12-2-Android-risks-insecure-dns-setup.md",
     "_posts/android/2025-11-27-Android-安全性最佳实践.md~",
     "_posts/android/security",
     "_posts/android/base",
     "_posts/android",
-    "_posts/dart",
-    "_posts/新建文件夹 (2)",
     "assets/img/dart/pub-2.png",
     "assets/img/dart/pub-1.png",
     "assets/img/dart/memory-5.png",
