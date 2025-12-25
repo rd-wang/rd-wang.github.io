@@ -74,8 +74,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,7 +169,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a99439d4439e2f58",
+  "active": "aba79168b5fea5ef",
   "lastOpenFiles": [
     "assets/img/android/risk/partial_occlusion.png",
     "assets/img/android/risk/未确认 255474.crdownload",

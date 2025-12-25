@@ -96,5 +96,5 @@ Android 16 和 `accessibilityDataSensitive`：从 Android 16（API 级别 16）�
 ## 资源
 
 - [“Play 商店目标 API 级别”政策变更](https://android-developers.googleblog.com/2019/02/expanding-target-api-level-requirements.html)
-- [界面伪装和基于无障碍服务的 Android 攻击](http://cloak-and-dagger.org/)
+- [界面伪装和基于无障碍服务的 Android 攻击](https://cloak-and-dagger.org/)
 
