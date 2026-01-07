@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/android/security/2026-1-7-Android-risks-unsafe-download-manager.md",
+                "file": "_posts/android/security/2026-1-7-Android-risks-unsafe-hostname.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-1-7-Android-risks-unsafe-download-manager"
+              "title": "2026-1-7-Android-risks-unsafe-hostname"
             }
           }
         ]
@@ -172,6 +172,7 @@
   "active": "aba79168b5fea5ef",
   "lastOpenFiles": [
     "_posts/android/security/_2026-1-7-Android-risks- 1.md",
+    "_posts/android/security/2026-1-7-Android-risks-unsafe-hostname.md",
     "_posts/android/security/2026-1-7-Android-risks-unsafe-download-manager.md",
     "_posts/android/security/2025-12-26-Android-risks-unsafe-deserialization.md",
     "_posts/android/security/2025-12-26-Android-risks-test-debug.md",
@@ -204,7 +205,6 @@
     "_posts/android/security/2025-11-28-Android-risks-broken-cryptographic-algorithm.md",
     "_posts/android/security/2025-11-28-Android-risks-android-debuggable.md",
     "_posts/android/security/2025-12-5-Android-risks-pending-intent.md",
-    "_posts/android/security/2025-12-5-Android-risks-access-control-to-exported-components.md",
     "_posts/android/2025-11-27-Android-安全性最佳实践.md~",
     "_posts/android/security",
     "_posts/android/base",
