@@ -39,7 +39,7 @@ Android 应用可以利用使用 C 和 C++ 等语言编写的原生代码来实�
 
 [Bash](https://developer.android.com/privacy-and-security/risks/use-of-native-code?hl=zh-cn#bash)
 
-```
+```bash
 $ pwn checksec --file path/to/libnativecode.so
     Arch:     aarch64-64-little
     RELRO:    Full RELRO

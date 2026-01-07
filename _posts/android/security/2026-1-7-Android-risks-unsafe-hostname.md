@@ -11,7 +11,7 @@ tags:
   - Security
   - Risks
   - OWASP
-description: 不安全的 `HostnameVerifier` 实现可能会导致漏洞，攻击者可以利用这些漏洞对来自受害应用的网络流量实施 MiTM（中间人）攻击。
+description: 不安全的 HostnameVerifier 实现可能会导致漏洞，攻击者可以利用这些漏洞对来自受害应用的网络流量实施 MiTM（中间人）攻击。
 math: true
 ---
 **OWASP 类别：**[MASVS-CODE：代码质量](https://mas.owasp.org/MASVS/10-MASVS-CODE)
