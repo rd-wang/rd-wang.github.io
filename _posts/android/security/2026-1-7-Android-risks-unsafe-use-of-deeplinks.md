@@ -11,7 +11,7 @@ tags:
   - Security
   - Risks
   - OWASP
-description:
+description: 缺乏适当的深度链接验证机制，或不安全地使用深度链接，可能会帮助恶意用户实施诸如以下攻击：例如绕过主机验证、跨应用脚本攻击以及​​在易受攻击应用程序的权限上下文中执行远程代码。
 math: true
 ---
 **OWASP 类别**： [MASVS-PLATFORM：平台互动](https://mas.owasp.org/MASVS/09-MASVS-PLATFORM)
