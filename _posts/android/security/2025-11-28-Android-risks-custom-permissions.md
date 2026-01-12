@@ -1,5 +1,5 @@
 ---
-title: Android-安全风险-自定义权限
+title: Android-安全性-安全风险-自定义权限
 date: 2025-11-28 12:04:52 +0800
 categories:
   - Android

@@ -1,5 +1,5 @@
 ---
-title: Android-安全风险-日志信息泄露
+title: Android-安全性-安全风险-日志信息泄露
 date: 2025-12-5 14:19:33 +0800
 categories:
   - Android

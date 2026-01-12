@@ -1,5 +1,5 @@
 ---
-title: Android-安全风险-对导出的组件的基于权限的访问控制
+title: Android-安全性-安全风险-对导出的组件的基于权限的访问控制
 date: 2025-12-5 15:34:26 +0800
 categories:
   - Android

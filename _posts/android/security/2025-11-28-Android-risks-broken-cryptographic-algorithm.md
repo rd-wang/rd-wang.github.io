@@ -1,5 +1,5 @@
 ---
-title: Android-安全风险-已损坏或有风险的加密算法
+title: Android-安全性-安全风险-已损坏或有风险的加密算法
 date: 2025-11-28 11:25:25 +0800
 categories:
   - Android

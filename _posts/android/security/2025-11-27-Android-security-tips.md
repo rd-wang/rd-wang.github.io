@@ -1,5 +1,5 @@
 ---
-title: Android-安全性最佳实践
+title: Android-安全性-安全准则
 date: 2025-11-27 14:34:57 +0800
 categories:
   - Android
@@ -12,7 +12,7 @@ math: true
 ---
 
 # 安全准则
-
+Android 内置了安全功能，可显著降低应用出现安全问题的频率及其造成的影响。系统已经过精心设计，因此一般情况下，只需要使用默认系统和文件权限即可打造应用，无需费心在安全性方面做出艰难决策。
 可以借助以下核心安全功能打造安全应用：
 
 - Android 应用沙盒，可将您的应用数据和代码执行与其他应用分隔开来。
@@ -237,7 +237,7 @@ intent 的发送器会验证接收者是否有权通过方法调用来指定非�
 
 [Service](https://developer.android.com/reference/android/app/Service?hl=zh-cn) 通常用于提供其他应用要使用的功能。每个服务类在其清单文件中都必须有相应的 [service](https://developer.android.com/guide/topics/manifest/service-element?hl=zh-cn) 声明。
 
-默认情况下，服务不会被导出，并且无法由任何其他应用调用。不过，如果您将任何 intent 过滤器添加到服务声明中，那么系统会默认导出该服务。最好明确声明 [`android:exported`](https://developer.android.com/guide/topics/manifest/service-element?hl=zh-cn#exported) 属性，以确保其行为符合您的预期。您也可以使用 [`android:permission`](https://developer.android.com/guide/topics/manifest/service-element?hl=zh-cn#prmsn) 属性来保护服务。这样一来，其他应用只有在自己的清单中声明相应的 [<uses-permission>](https://developer.android.com/guide/topics/manifest/uses-permission-element?hl=zh-cn) 元素，才能启动、停止或绑定到服务。
+默认情况下，服务不会被导出，并且无法由任何其他应用调用。不过，如果您将任何 intent 过滤器添加到服务声明中，那么系统会默认导出该服务。最好明确声明 [`android:exported`](https://developer.android.com/guide/topics/manifest/service-element?hl=zh-cn#exported) 属性，以确保其行为符合您的预期。您也可以使用 [`android:permission`](https://developer.android.com/guide/topics/manifest/service-element?hl=zh-cn#prmsn) 属性来保护服务。这样一来，其他应用只有在自己的清单中声明相应的 [uses-permission](https://developer.android.com/guide/topics/manifest/uses-permission-element?hl=zh-cn) 元素，才能启动、停止或绑定到服务。
 
 **注意：**如果您的应用以 Android 5.0（API 级别 21）或更高版本为目标平台，则应使用 [JobScheduler](https://developer.android.com/reference/android/app/job/JobScheduler?hl=zh-cn) 来执行后台服务。
 

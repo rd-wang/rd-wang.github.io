@@ -1,5 +1,5 @@
 ---
-title: Android-安全风险-PendingIntent的发送者
+title: Android-安全性-安全风险-PendingIntent的发送者
 date: 2025-12-23 10:58:04 +0800
 categories:
   - Android

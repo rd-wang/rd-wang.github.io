@@ -1,5 +1,5 @@
 ---
-title: Android-安全风险-不安全的机器间通信设置
+title: Android-安全性-安全风险-不安全的机器间通信设置
 date: 2025-12-2 08:19:07 +0800
 categories:
   - Android

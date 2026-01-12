@@ -1,5 +1,5 @@
 ---
-title: Android-三方SDK安全性
+title: Android-安全性-用户安全和 SDK 简介
 date: 2025-11-27 15:21:17 +0800
 categories:
   - Android
@@ -9,12 +9,9 @@ tags:
   - Android
   - Security
   - Third-party-SDK
-description: 
+description: 无论您是使用 SDK 的应用开发者，还是 SDK 提供方，都有必要详细了解一下用户安全最佳实践。
 math: true
 ---
-
-# 用户安全和 SDK 简介
-
 作为**应用开发者**，您需要保护用户并确保应用能够安全稳定地运行，防范任何安全漏洞，包括可能由您所用的软件开发套件 (SDK) 引入的安全漏洞。
 
 作为 **SDK 提供方**，您肯定不希望自己的 SDK 导致应用/游戏开发者违反 Google Play 开发者政策，进而使他们遭受业务中断并面临 Google Play 采取的违规处置措施。

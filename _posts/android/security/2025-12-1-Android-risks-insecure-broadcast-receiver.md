@@ -1,5 +1,5 @@
 ---
-title: Android-安全风险-不安全的broadcast-receive
+title: Android-安全性-安全风险-不安全的broadcast-receive
 date: 2025-12-1 08:11:07 +0800
 categories:
   - Android
