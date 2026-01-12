@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/android/security/ai_risks/2026-1-12-Android-security-risks-ai-risks-risks-mitigations.md",
+                "file": "_posts/android/security/ai_risks/2026-1-12-Android-security-risks-ai-risks-excessive-agency.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-1-12-Android-security-risks-ai-risks-risks-mitigations"
+              "title": "2026-1-12-Android-security-risks-ai-risks-excessive-agency"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 555.5
+    "width": 256.5
   },
   "right": {
     "id": "9c6b8ce129e8b6ef",
@@ -171,6 +171,11 @@
   },
   "active": "aba79168b5fea5ef",
   "lastOpenFiles": [
+    "_posts/android/security/ai_risks/2026-1-12-Android-security-risks-ai-risks-sensitive-information-disclosure.md",
+    "_posts/android/security/ai_risks/2026-1-12-Android-security-risks-ai-risks-prompt-injection.md",
+    "_posts/android/security/ai_risks/2026-1-12-Android-security-risks-ai-risks-risks-mitigations.md",
+    "_posts/android/security/ai_risks/_2026-1-12-Android-security-risks-ai-risks-.md",
+    "_posts/android/security/ai_risks/2026-1-12-Android-security-risks-ai-risks-excessive-agency.md",
     "_posts/android/security/_2026-1-12-Android-security-risks-.md",
     "_posts/android/security/common_risks/2026-1-12-Android-security-risks-unsafe-uri-loading.md",
     "_posts/android/security/common_risks/2026-1-12-Android-security-risks-weak-prng.md",
@@ -192,11 +197,6 @@
     "_posts/android/security/common_risks/2025-12-25-Android-security-risks-tapjacking.md",
     "_posts/android/security/common_risks/2025-12-2-Android-security-risks-insecure-dns-setup.md",
     "_posts/android/security/common_risks/2025-12-5-Android-security-risks-log-info-disclosure.md",
-    "_posts/android/security/common_risks/2025-12-5-Android-security-risks-pending-intent.md",
-    "_posts/android/security/common_risks/2025-12-5-Android-security-risks-path-traversal.md",
-    "_posts/android/security/common_risks/2025-12-5-Android-security-risks-backup-best-practices.md",
-    "_posts/android/security/common_risks/2025-12-2-Android-security-risks-insecure-machine-to-machine.md",
-    "_posts/android/security/common_risks/2025-12-2-Android-security-risks-intent-redirection.md",
     "_posts/android/security/ai_risks",
     "_posts/android/security/common_risks",
     "_posts/android/security/2025-12-1-Android-risks-insecure-library.md~",
