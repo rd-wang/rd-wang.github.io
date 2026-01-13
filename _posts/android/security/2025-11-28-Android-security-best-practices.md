@@ -7,6 +7,7 @@ categories:
 tags:
   - Android
   - Security
+  - improve
 description: 防止未经授权访问敏感信息，保护用户免受恶意软件和网络钓鱼攻击，并确保 Android 生态系统的整体完整性
 math: true
 ---

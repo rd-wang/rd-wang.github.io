@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/android/security/ai_risks/2026-1-12-Android-security-risks-ai-risks-excessive-agency.md",
+                "file": "_posts/android/security/2026-1-13-Android-security-safetynet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-1-12-Android-security-risks-ai-risks-excessive-agency"
+              "title": "2026-1-13-Android-security-safetynet"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 252.5
   },
   "right": {
     "id": "9c6b8ce129e8b6ef",
@@ -171,12 +171,19 @@
   },
   "active": "aba79168b5fea5ef",
   "lastOpenFiles": [
-    "_posts/android/security/ai_risks/2026-1-12-Android-security-risks-ai-risks-sensitive-information-disclosure.md",
-    "_posts/android/security/ai_risks/2026-1-12-Android-security-risks-ai-risks-prompt-injection.md",
-    "_posts/android/security/ai_risks/2026-1-12-Android-security-risks-ai-risks-risks-mitigations.md",
-    "_posts/android/security/ai_risks/_2026-1-12-Android-security-risks-ai-risks-.md",
+    "_posts/android/security/2026-1-13-Android-security-advanced-protection-mode.md",
+    "_posts/android/security/2026-1-13-Android-security-safetynet.md",
+    "_posts/android/security/_2026-1-12-Android-security-.md",
+    "_posts/android/security/2025-11-28-Android-security-best-practices.md",
+    "_posts/android/security/2025-11-27-Android-security-sdk-best-practices.md",
+    "_posts/android/security/2025-11-27-Android-security-tips.md",
+    "_posts/android/2025-11-27-Android-系统源码进阶学习计划.md",
     "_posts/android/security/ai_risks/2026-1-12-Android-security-risks-ai-risks-excessive-agency.md",
-    "_posts/android/security/_2026-1-12-Android-security-risks-.md",
+    "_posts/android/security/ai_risks/2026-1-12-Android-security-risks-ai-risks-risks-mitigations.md",
+    "_posts/android/security/ai_risks/2026-1-12-Android-security-risks-ai-risks-prompt-injection.md",
+    "_posts/android/security/ai_risks/2026-1-12-Android-security-risks-ai-risks-sensitive-information-disclosure.md",
+    "_posts/ai",
+    "_posts/android/security/ai_risks/_2026-1-12-Android-security-risks-ai-risks-.md",
     "_posts/android/security/common_risks/2026-1-12-Android-security-risks-unsafe-uri-loading.md",
     "_posts/android/security/common_risks/2026-1-12-Android-security-risks-weak-prng.md",
     "_posts/android/security/common_risks/2026-1-7-Android-security-risks-unsafe-hostname.md",
@@ -191,12 +198,6 @@
     "_posts/android/security/common_risks/2025-12-23-Android-risks-sql-injection.md",
     "_posts/android/security/common_risks/2025-12-23-Android-security-risks-sql-injection.md",
     "_posts/android/security/common_risks/2025-12-23-Android-security-risks-strandhogg.md",
-    "_posts/android/security/common_risks/2025-12-23-Android-security-risks-sticky-broadcast.md",
-    "_posts/android/security/common_risks/2026-1-7-Android-security-risks-insecure-webview-native-bridges.md",
-    "_posts/android/security/common_risks/2025-12-26-Android-security-risks-test-debug.md",
-    "_posts/android/security/common_risks/2025-12-25-Android-security-risks-tapjacking.md",
-    "_posts/android/security/common_risks/2025-12-2-Android-security-risks-insecure-dns-setup.md",
-    "_posts/android/security/common_risks/2025-12-5-Android-security-risks-log-info-disclosure.md",
     "_posts/android/security/ai_risks",
     "_posts/android/security/common_risks",
     "_posts/android/security/2025-12-1-Android-risks-insecure-library.md~",
@@ -208,7 +209,6 @@
     "assets/img/android/risk/未确认 255474.crdownload",
     "assets/img/android/risk/full_occlusion.png",
     "assets/img/android/risk/未确认 817350.crdownload",
-    "未命名 1.base",
     "assets/img/dart/pub-2.png",
     "assets/img/dart/pub-1.png",
     "assets/img/dart/memory-5.png",
