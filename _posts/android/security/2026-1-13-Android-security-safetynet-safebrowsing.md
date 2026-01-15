@@ -8,7 +8,7 @@ tags:
   - Android
   - Security
   - Safety-Net
-description:
+description: 应用可以使用此 API 来确定某个特定网址是否已被 Google 归类为已知威胁。
 math: true
 ---
 SafetyNet Safe Browsing API 是一个由 [Google Play 服务](https://developers.google.com/android?hl=zh-cn)提供支持的库，提供的服务用于确定网址是否已被 Google 标记为已知威胁。

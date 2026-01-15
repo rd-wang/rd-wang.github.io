@@ -8,11 +8,10 @@ tags:
   - Android
   - Security
   - Hardware-backed
-  - Key
-description:
+  - Key-Pairs
+description: 利用密钥认证，对于将应用中使用的密钥存储在设备硬件支持的密钥库中这一做法，您可以更加放心。分为几部分介绍了如何验证硬件支持的密钥的属性，以及如何解释认证证书的扩展数据。
 math: true
 ---
-利用密钥认证，对于将应用中使用的密钥存储在设备硬件支持的密钥库中这一做法，您可以更加放心。下面几部分介绍了如何验证硬件支持的密钥的属性，以及如何解释认证证书的扩展数据。
 
 >**注意**：在生产级环境中为设备验证硬件支持的密钥的属性前，您应确保设备支持硬件级密钥认证。为此，您需要确认认证证书链包含用 Google 认证根密钥签名的根证书，且[密钥描述](https://developer.android.com/privacy-and-security/security-key-attestation?hl=zh-cn#key_attestation_ext_schema_keydescription)数据结构中的 `attestationSecurityLevel` 元素被设置为 `TrustedEnvironment` 安全等级。
 >此外，请务必验证证书链中的签名，并查看[证书吊销状态列表](https://developer.android.com/privacy-and-security/security-key-attestation?hl=zh-cn#certificate_status)，确认证书链中没有密钥被吊销。除非所有密钥均有效且根是 Google 根密钥，否则请勿完全信任认证。但是请注意，包含已吊销的证书的设备至少和仅支持软件认证的设备一样可信。在可信度方面，具有完全有效的认证是强有力的正面指标，但没有完全有效的认证则属于一般情况，并非是负面指标。
