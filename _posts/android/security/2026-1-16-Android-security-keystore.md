@@ -330,5 +330,5 @@ boolean valid = s.verify(signature);
 
 ## 博客文章
 
-请查看 Android 开发者博客上的文章 [在 ICS 中统一密钥库访问](http://android-developers.blogspot.com/2012/03/unifying-key-store-access-in-ics.html)。
+请查看 Android 开发者博客上的文章 [在 ICS 中统一密钥库访问](https://android-developers.blogspot.com/2012/03/unifying-key-store-access-in-ics.html)。
 
