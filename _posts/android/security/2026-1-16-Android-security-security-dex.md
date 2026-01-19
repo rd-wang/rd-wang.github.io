@@ -8,7 +8,8 @@ categories:
 tags:
   - Android
   - Security
-description:
+  - Security-Dex
+description: 在搭载 Android 10（API 级别 29）和更高版本的设备上，您现在可以告知平台直接从应用的 APK 文件运行嵌入式 DEX 代码。
 math: true
 ---
 在搭载 Android 10（API 级别 29）和更高版本的设备上，您现在可以告知平台直接从应用的 APK 文件运行嵌入式 DEX 代码。如果攻击者曾设法篡改了设备上本地编译的代码，此选项有助于防止这类攻击。

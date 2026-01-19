@@ -4,11 +4,12 @@ date: 2026-1-19 16:24:56 +0800
 categories:
   - Android
   - Security
+  - GMS-Provider
 tags:
   - Android
   - Security
   - Network
-description:
+description: Google Play 服务提供了一种自动更新设备安全提供商的方法，以防范已知的漏洞利用。通过调用 Google Play 服务方法，您可以确保您的应用在具有最新更新的设备上运行，从而防止已知的漏洞利用。
 math: true
 ---
 Android 依赖安全 [`Provider`](https://developer.android.com/reference/java/security/Provider?hl=zh-cn) 提供安全的网络通信。但是，默认安全提供程序偶尔也会出现漏洞。为了防范这些漏洞， [Google Play 服务](https://developer.android.com/google/play-services?hl=zh-cn)提供了一种自动更新设备安全提供商的方法，以防范已知的漏洞利用。通过调用 Google Play 服务方法，您可以确保您的应用在具有最新更新的设备上运行，从而防止已知的漏洞利用。
