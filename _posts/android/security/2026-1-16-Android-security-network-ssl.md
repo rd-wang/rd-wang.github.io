@@ -31,7 +31,7 @@ math: true
 
 客户端应用需要一种机制来验证服务器，因为 CA 为许多服务器提供证书。CA 证书使用特定名称（如 gmail.com）或使用通配符（如 *.google.com）来标识服务器。
 
-如需查看网站的服务器证书信息，请使用 [`openssl`](http://www.openssl.org/docs/apps/openssl.html) 工具的 `s_client` 命令，传入端口号。默认情况下，HTTPS 使用端口 443。
+如需查看网站的服务器证书信息，请使用 [`openssl`](https://www.openssl.org/docs/apps/openssl.html) 工具的 `s_client` 命令，传入端口号。默认情况下，HTTPS 使用端口 443。
 
 该命令将 `openssl s_client` 的输出传输到 `openssl x509`，后者将根据 [X.509 标准](https://en.wikipedia.org/wiki/X.509)设置证书相关信息的格式。该命令会请求获取主题（服务器名称）和颁发者 (CA) 的信息。
 
@@ -108,7 +108,7 @@ javax.net.ssl.SSLHandshakeException: java.security.cert.CertPathValidatorExcepti
 
 为了消除此信任缺口，服务器在 TLS 握手期间，会将一串证书从服务器 CA 经由任何中间证书发送到受信任的根 CA。
 
-例如，下面是通过 [`openssl`](http://www.openssl.org/docs/apps/openssl.html) `s_client` 命令看到的 mail.google.com 证书链：
+例如，下面是通过 [`openssl`](https://www.openssl.org/docs/apps/openssl.html) `s_client` 命令看到的 mail.google.com 证书链：
 
 ```bash
 $ openssl s_client -connect mail.google.com:443

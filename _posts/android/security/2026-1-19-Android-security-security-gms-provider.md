@@ -13,7 +13,7 @@ math: true
 ---
 Android 依赖安全 [`Provider`](https://developer.android.com/reference/java/security/Provider?hl=zh-cn) 提供安全的网络通信。但是，默认安全提供程序偶尔也会出现漏洞。为了防范这些漏洞， [Google Play 服务](https://developer.android.com/google/play-services?hl=zh-cn)提供了一种自动更新设备安全提供商的方法，以防范已知的漏洞利用。通过调用 Google Play 服务方法，您可以确保您的应用在具有最新更新的设备上运行，从而防止已知的漏洞利用。
 
-例如，OpenSSL ([CVE-2014-0224](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0224)) 中发现了一个漏洞，该漏洞可能使应用程序容易受到路径攻击，攻击者可以在双方不知情的情况下解密安全流量。Google Play 服务 5.0 版本提供了一个修复程序，但应用必须检查此修复程序是否已安装。通过使用 Google Play 服务的方法，您可以确保您的应用运行在能够抵御此类攻击的设备上。
+例如，OpenSSL ([CVE-2014-0224](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0224)) 中发现了一个漏洞，该漏洞可能使应用程序容易受到路径攻击，攻击者可以在双方不知情的情况下解密安全流量。Google Play 服务 5.0 版本提供了一个修复程序，但应用必须检查此修复程序是否已安装。通过使用 Google Play 服务的方法，您可以确保您的应用运行在能够抵御此类攻击的设备上。
 
 >**注意：** 更新设备的安全 `Provider` 不会更新 [`android.net.SSLCertificateSocketFactory`](https://developer.android.com/reference/android/net/SSLCertificateSocketFactory?hl=zh-cn)，因此它仍然存在漏洞。我们建议应用开发者使用高级方法与加密进行交互，而不是使用已废弃的类（例如 [`HttpsURLConnection`](https://developer.android.com/reference/javax/net/ssl/HttpsURLConnection?hl=zh-cn)）。
 
@@ -36,7 +36,7 @@ Android 依赖安全 [`Provider`](https://developer.android.com/reference/java/
 
 > **警告：** 如果 `ProviderInstaller` 无法安装已更新的 `Provider`，您设备的安全提供程序可能会受到已知漏洞攻击。您的应用应表现为好像所有 HTTP 通信都未加密。
 
-在更新 `Provider` 后，对安全 API（包括 SSL API）的所有调用均通过它进行路由。（但是，这不适用于 `android.net.SSLCertificateSocketFactory`，其仍然容易受到类似 [CVE-2014-0224](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0224) 等漏洞的攻击。）
+在更新 `Provider` 后，对安全 API（包括 SSL API）的所有调用均通过它进行路由。（但是，这不适用于 `android.net.SSLCertificateSocketFactory`，其仍然容易受到类似 [CVE-2014-0224](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0224) 等漏洞的攻击。）
 
 ### 同步打补丁
 
