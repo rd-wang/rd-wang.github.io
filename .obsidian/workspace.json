@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/android/security/2026-1-19-Android-security-security-gms-provider.md",
+                "file": "_posts/android/security/2026-1-22-Android-security-certificate-transparency-policy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-1-19-Android-security-security-gms-provider"
+              "title": "2026-1-22-Android-security-certificate-transparency-policy"
             }
           }
         ]
@@ -169,15 +169,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "06f3cee6113b15fe",
+  "active": "40f2c37a2f8ff4a9",
   "lastOpenFiles": [
+    "_posts/android/security/2026-1-19-Android-security-security-gms-provider.md",
+    "_posts/android/security/2026-1-22-Android-security-certificate-transparency-policy.md",
+    "_posts/android/security/_2026-1-20-Android-security-.md",
+    "_posts/android/security/2026-1-15-Android-security-safetynet-SafetyNet reCAPTCHA API.md",
+    "_posts/android/security/2025-11-28-Android-security-best-practices.md",
+    "_posts/android/security/2026-1-13-Android-security-advanced-protection-mode.md",
     "_posts/android/security/2025-11-27-Android-security-tips.md",
     "_posts/android/security/2025-11-27-Android-security-sdk-best-practices.md",
-    "_posts/android/security/2025-11-28-Android-security-best-practices.md",
-    "_posts/android/security/_2026-1-12-Android-security-.md",
-    "_posts/android/security/2026-1-13-Android-security-advanced-protection-mode.md",
     "_posts/android/security/2026-1-13-Android-security-safetynet-safebrowsing.md",
-    "_posts/android/security/2026-1-15-Android-security-safetynet-SafetyNet reCAPTCHA API.md",
     "_posts/android/security/2026-1-15-Android-security-security-key-attestation.md",
     "_posts/android/security/2026-1-15-Android-security-cryptography.md",
     "_posts/android/security/2026-1-16-Android-security-keystore.md",
@@ -185,7 +187,6 @@
     "_posts/android/security/2026-1-16-Android-security-security-dex.md",
     "_posts/android/security/2026-1-16-Android-security-network-ssl.md",
     "_posts/android/security/2026-1-19-Android-security-network-config.md",
-    "_posts/android/security/2026-1-19-Android-security-security-gms-provider.md",
     "未命名 1.base",
     "未命名.base",
     "_tabs/categories.md",
