@@ -129,7 +129,7 @@ math: true
 	          .setExtraData(myExtraData)
 	          .build()
 	  dialog.presentPrompt(threadReceivingCallback, callback)
-	    ```
+	```
 	    
 	[Java](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#java)
 	
