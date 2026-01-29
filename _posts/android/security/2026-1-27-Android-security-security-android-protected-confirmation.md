@@ -136,23 +136,24 @@ math: true
 	```java
 	// This data structure varies by app type. This is an example.
 	class ConfirmationPromptData {
-		  String sender, receiver, amount;
-		  ConfirmationPromptData(String sender, String receiver, String amount) {
+		String sender, receiver, amount;
+		ConfirmationPromptData(String sender, String receiver, String amount) {
 			  this.sender = sender;
 			  this.receiver = receiver;
 			  this.amount = amount;
 		  }
 	  };
-	final int MY_EXTRA_DATA_LENGTH = 100;
-	byte[] myExtraData = new byte[MY_EXTRA_DATA_LENGTH];
-	ConfirmationPromptData myDialogData = new ConfirmationPromptData("Ashlyn", "Jordan", "$500");
-	Executor threadReceivingCallback = Runnable::run;
-	MyConfirmationCallback callback = new MyConfirmationCallback();
-	ConfirmationPrompt dialog = (new ConfirmationPrompt.Builder(getApplicationContext()))
+		final int MY_EXTRA_DATA_LENGTH = 100;
+		byte[] myExtraData = new byte[MY_EXTRA_DATA_LENGTH];
+		ConfirmationPromptData myDialogData = new ConfirmationPromptData("Ashlyn", "Jordan", "$500");
+		Executor threadReceivingCallback = Runnable::run;
+		MyConfirmationCallback callback = new MyConfirmationCallback();
+		ConfirmationPrompt dialog = (new ConfirmationPrompt.Builder(getApplicationContext()))
 			  .setPromptText("${myDialogData.sender}, send ${myDialogData.amount} to ${myDialogData.receiver}?")
 			  .setExtraData(myExtraData)
 			  .build();
-	dialog.presentPrompt(threadReceivingCallback, callback);
+		dialog.presentPrompt(threadReceivingCallback, callback);
+	}
 	```
 	    
 > 	**注意：** 包含全屏对话框的确认提示界面无法自定义，但框架会为您处理按钮文本的本地化。
