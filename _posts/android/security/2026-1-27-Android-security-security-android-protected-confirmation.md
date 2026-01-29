@@ -30,82 +30,84 @@ math: true
     
     >**注意：** 如果附加数据字段包含待确认数据，则依赖方必须验证与提示字符串一起发送的相同数据。Android 受保护的确认功能不会渲染额外数据，因此您的应用无法假定用户已确认这些数据。
     
-4. 设置 [`ConfirmationCallback`](https://developer.android.com/reference/android/security/ConfirmationCallback?hl=zh-cn) 对象，让它在用户已接受确认对话框中显示的提示时通知应用：
+1. 设置 [`ConfirmationCallback`](https://developer.android.com/reference/android/security/ConfirmationCallback?hl=zh-cn) 对象，让它在用户已接受确认对话框中显示的提示时通知应用：
+			
+	[Kotlin](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#kotlin)
+	
+	```kotlin
+	    class MyConfirmationCallback : ConfirmationCallback() {
+	
+	      override fun onConfirmed(dataThatWasConfirmed: ByteArray?) {
+	          super.onConfirmed(dataThatWasConfirmed)
+	          // Sign dataThatWasConfirmed using your generated signing key.
+	          // By completing this process, you generate a signed statement.
+	      }
+	
+	      override fun onDismissed() {
+	          super.onDismissed()
+	          // Handle case where user declined the prompt in the
+	          // confirmation dialog.
+	      }
+	
+	      override fun onCanceled() {
+	          super.onCanceled()
+	          // Handle case where your app closed the dialog before the user
+	          // responded to the prompt.
+	      }
+	
+	      override fun onError(e: Exception?) {
+	          super.onError(e)
+	          // Handle the exception that the callback captured.
+	      }
+	  }
+	```
+	    
+	[Java](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#java)
+	
+	```java
+	    public class MyConfirmationCallback extends ConfirmationCallback {
+	    
+	      @Override
+	      public void onConfirmed(@NonNull byte[] dataThatWasConfirmed) {
+	          super.onConfirmed(dataThatWasConfirmed);
+	          // Sign dataThatWasConfirmed using your generated signing key.
+	          // By completing this process, you generate a signed statement.
+	      }
+	    
+	      @Override
+	      public void onDismissed() {
+	          super.onDismissed();
+	          // Handle case where user declined the prompt in the
+	          // confirmation dialog.
+	      }
+	    
+	      @Override
+	      public void onCanceled() {
+	          super.onCanceled();
+	          // Handle case where your app closed the dialog before the user
+	          // responded to the prompt.
+	      }
+	    
+	      @Override
+	      public void onError(Throwable e) {
+	          super.onError(e);
+	          // Handle the exception that the callback captured.
+	      }
+	    }
+	```
+	
+	
+	如果用户批准该对话框，则调用 `onConfirmed()` 回调。`dataThatWasConfirmed` BLOB 是一个 [CBOR 数据结构](http://cbor.io/)，其中包含用户看到的提示文本以及您传入 [`ConfirmationPrompt`](https://developer.android.com/reference/android/security/ConfirmationPrompt?hl=zh-cn) 构建器的额外数据，还包含其他详细信息。使用之前创建的密钥签署 `dataThatWasConfirmed` BLOB，然后将 BLOB 连同签名和交易详情回传给依赖方。
+	
+	**注意：** 由于密钥是使用 [`setUserConfirmationRequired()`](https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder?hl=zh-cn#setUserConfirmationRequired\(boolean\)) 创建的，因此只能用于签署 `dataThatWasConfirmed` 参数中返回的数据。尝试签署任何其他类型的数据都不会成功。
+	    
+   为了充分利用 Android 受保护的确认提供的安全保障，依赖方必须在收到已签署的消息后执行以下步骤：
+	    
+	1. 检查消息上的签名以及签名密钥的认证证书链。
+	2. 检查认证证书是否设置了 `TRUSTED_CONFIRMATION_REQUIRED` 标记，这表示签名密钥需要受信任的用户确认。如果签名密钥是 RSA 密钥，请确认它不具有 [`PURPOSE_ENCRYPT`](https://developer.android.com/reference/android/security/keystore/KeyProperties?hl=zh-cn#PURPOSE_ENCRYPT) 或 [`PURPOSE_DECRYPT`](https://developer.android.com/reference/android/security/keystore/KeyProperties?hl=zh-cn#PURPOSE_DECRYPT) 属性。
+	3. 检查 `extraData` 以确保此确认消息属于新请求但尚未处理。此步骤可防范重放攻击。
+	4. 解析 `promptText` 以获取有关已确认操作或请求的信息。请谨记，`promptText` 是用户实际确认的消息的唯一部分。依赖方绝不能假设 `extraData` 包含的待确认数据对应于 `promptText`。
     
-[Kotlin](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#kotlin)
-```kotlin
-    class MyConfirmationCallback : ConfirmationCallback() {
-
-      override fun onConfirmed(dataThatWasConfirmed: ByteArray?) {
-          super.onConfirmed(dataThatWasConfirmed)
-          // Sign dataThatWasConfirmed using your generated signing key.
-          // By completing this process, you generate a signed statement.
-      }
-
-      override fun onDismissed() {
-          super.onDismissed()
-          // Handle case where user declined the prompt in the
-          // confirmation dialog.
-      }
-
-      override fun onCanceled() {
-          super.onCanceled()
-          // Handle case where your app closed the dialog before the user
-          // responded to the prompt.
-      }
-
-      override fun onError(e: Exception?) {
-          super.onError(e)
-          // Handle the exception that the callback captured.
-      }
-  }
-```
-    
-[Java](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#java)
-
-```java
-    public class MyConfirmationCallback extends ConfirmationCallback {
-    
-      @Override
-      public void onConfirmed(@NonNull byte[] dataThatWasConfirmed) {
-          super.onConfirmed(dataThatWasConfirmed);
-          // Sign dataThatWasConfirmed using your generated signing key.
-          // By completing this process, you generate a signed statement.
-      }
-    
-      @Override
-      public void onDismissed() {
-          super.onDismissed();
-          // Handle case where user declined the prompt in the
-          // confirmation dialog.
-      }
-    
-      @Override
-      public void onCanceled() {
-          super.onCanceled();
-          // Handle case where your app closed the dialog before the user
-          // responded to the prompt.
-      }
-    
-      @Override
-      public void onError(Throwable e) {
-          super.onError(e);
-          // Handle the exception that the callback captured.
-      }
-    }
-```
-
-    
-    如果用户批准该对话框，则调用 `onConfirmed()` 回调。`dataThatWasConfirmed` BLOB 是一个 [CBOR 数据结构](http://cbor.io/)，其中包含用户看到的提示文本以及您传入 [`ConfirmationPrompt`](https://developer.android.com/reference/android/security/ConfirmationPrompt?hl=zh-cn) 构建器的额外数据，还包含其他详细信息。使用之前创建的密钥签署 `dataThatWasConfirmed` BLOB，然后将 BLOB 连同签名和交易详情回传给依赖方。
-    
-	 **注意：** 由于密钥是使用 [`setUserConfirmationRequired()`](https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder?hl=zh-cn#setUserConfirmationRequired\(boolean\)) 创建的，因此只能用于签署 `dataThatWasConfirmed` 参数中返回的数据。尝试签署任何其他类型的数据都不会成功。
-    
-    为了充分利用 Android 受保护的确认提供的安全保障，依赖方必须在收到已签署的消息后执行以下步骤：
-    
-    1. 检查消息上的签名以及签名密钥的认证证书链。
-    2. 检查认证证书是否设置了 `TRUSTED_CONFIRMATION_REQUIRED` 标记，这表示签名密钥需要受信任的用户确认。如果签名密钥是 RSA 密钥，请确认它不具有 [`PURPOSE_ENCRYPT`](https://developer.android.com/reference/android/security/keystore/KeyProperties?hl=zh-cn#PURPOSE_ENCRYPT) 或 [`PURPOSE_DECRYPT`](https://developer.android.com/reference/android/security/keystore/KeyProperties?hl=zh-cn#PURPOSE_DECRYPT) 属性。
-    3. 检查 `extraData` 以确保此确认消息属于新请求但尚未处理。此步骤可防范重放攻击。
-    4. 解析 `promptText` 以获取有关已确认操作或请求的信息。请谨记，`promptText` 是用户实际确认的消息的唯一部分。依赖方绝不能假设 `extraData` 包含的待确认数据对应于 `promptText`。
 5. 添加与以下代码段所示内容类似的逻辑，以显示对话框本身：
     
     [Kotlin](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#kotlin)

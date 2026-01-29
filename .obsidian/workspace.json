@@ -15,7 +15,7 @@
               "state": {
                 "file": "_posts/android/security/2026-1-27-Android-security-security-android-protected-confirmation.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "2026-1-27-Android-security-security-android-protected-confirmation"
