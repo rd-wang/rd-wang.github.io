@@ -32,8 +32,8 @@ math: true
     
 4. 设置 [`ConfirmationCallback`](https://developer.android.com/reference/android/security/ConfirmationCallback?hl=zh-cn) 对象，让它在用户已接受确认对话框中显示的提示时通知应用：
     
-    [Kotlin](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#kotlin)
-    ```kotlin
+[Kotlin](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#kotlin)
+```kotlin
     class MyConfirmationCallback : ConfirmationCallback() {
 
       override fun onConfirmed(dataThatWasConfirmed: ByteArray?) {
@@ -59,10 +59,11 @@ math: true
           // Handle the exception that the callback captured.
       }
   }
-    ```
+```
     
-    [Java](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#java)
-    ```java
+[Java](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#java)
+
+```java
     public class MyConfirmationCallback extends ConfirmationCallback {
     
       @Override
@@ -92,11 +93,12 @@ math: true
           // Handle the exception that the callback captured.
       }
     }
-    ```
+```
+
     
-    如果用户批准该对话框，则调用 `onConfirmed()` 回调。`dataThatWasConfirmed` BLOB 是一个 [CBOR 数据结构](https://cbor.io/)，其中包含用户看到的提示文本以及您传入 [`ConfirmationPrompt`](https://developer.android.com/reference/android/security/ConfirmationPrompt?hl=zh-cn) 构建器的额外数据，还包含其他详细信息。使用之前创建的密钥签署 `dataThatWasConfirmed` BLOB，然后将 BLOB 连同签名和交易详情回传给依赖方。
+    如果用户批准该对话框，则调用 `onConfirmed()` 回调。`dataThatWasConfirmed` BLOB 是一个 [CBOR 数据结构](http://cbor.io/)，其中包含用户看到的提示文本以及您传入 [`ConfirmationPrompt`](https://developer.android.com/reference/android/security/ConfirmationPrompt?hl=zh-cn) 构建器的额外数据，还包含其他详细信息。使用之前创建的密钥签署 `dataThatWasConfirmed` BLOB，然后将 BLOB 连同签名和交易详情回传给依赖方。
     
-    > **注意：** 由于密钥是使用 [`setUserConfirmationRequired()`](https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder?hl=zh-cn#setUserConfirmationRequired\(boolean\)) 创建的，因此只能用于签署 `dataThatWasConfirmed` 参数中返回的数据。尝试签署任何其他类型的数据都不会成功。
+	 **注意：** 由于密钥是使用 [`setUserConfirmationRequired()`](https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder?hl=zh-cn#setUserConfirmationRequired\(boolean\)) 创建的，因此只能用于签署 `dataThatWasConfirmed` 参数中返回的数据。尝试签署任何其他类型的数据都不会成功。
     
     为了充分利用 Android 受保护的确认提供的安全保障，依赖方必须在收到已签署的消息后执行以下步骤：
     
@@ -107,7 +109,8 @@ math: true
 5. 添加与以下代码段所示内容类似的逻辑，以显示对话框本身：
     
     [Kotlin](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#kotlin)
-    ```kotlin
+
+```kotlin
     // This data structure varies by app type. This is an example.
   data class ConfirmationPromptData(val sender: String,
           val receiver: String, val amount: String)
@@ -125,8 +128,9 @@ math: true
           .build()
   dialog.presentPrompt(threadReceivingCallback, callback)
     ```
-    [Java](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#java)
-    ```java
+    
+[Java](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#java)
+```java
       // This data structure varies by app type. This is an example.
       class ConfirmationPromptData {
           String sender, receiver, amount;
@@ -146,9 +150,9 @@ math: true
               .setExtraData(myExtraData)
               .build();
       dialog.presentPrompt(threadReceivingCallback, callback);
-    ```
+```
     
-    > **注意：** 包含全屏对话框的确认提示界面无法自定义，但框架会为您处理按钮文本的本地化。
+> **注意：** 包含全屏对话框的确认提示界面无法自定义，但框架会为您处理按钮文本的本地化。
     
 
 ## 其他资源

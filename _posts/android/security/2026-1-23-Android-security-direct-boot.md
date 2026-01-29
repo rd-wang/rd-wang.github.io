@@ -105,10 +105,10 @@ adb shell getprop ro.crypto.type
     - 在设备上，如果您尚未启用**开发者选项**，请依次选择**设置 > 关于手机**，然后点按 **build 号**七次，将其启用。然后，依次前往**设置 > 开发者选项**，并选择**转换为文件级加密**。
     - 或者，运行以下 shell 命令：
         
-        ```bash
-        adb reboot-bootloader
-        fastboot --wipe-and-use-fbe
-        ```
+```bash
+	adb reboot-bootloader
+	fastboot --wipe-and-use-fbe
+```
         
 - 搭载 Android 13 或更低版本的设备支持“直接启动”模拟模式，该模式使用文件权限来模拟加密文件被锁定和解锁时的加密效果。仅在开发期间使用模拟模式，因为可能会导致数据丢失。如需启用“直接启动”模拟模式，请在设备上设置锁定模式，如果在设置锁定模式时系统提示使用安全启动屏幕，请选择“不用了”，然后运行以下 shell 命令：
     
