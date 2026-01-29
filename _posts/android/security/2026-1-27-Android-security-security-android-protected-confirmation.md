@@ -35,65 +35,65 @@ math: true
 	[Kotlin](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#kotlin)
 	
 	```kotlin
-	    class MyConfirmationCallback : ConfirmationCallback() {
-	
-	      override fun onConfirmed(dataThatWasConfirmed: ByteArray?) {
-	          super.onConfirmed(dataThatWasConfirmed)
-	          // Sign dataThatWasConfirmed using your generated signing key.
-	          // By completing this process, you generate a signed statement.
-	      }
-	
-	      override fun onDismissed() {
-	          super.onDismissed()
-	          // Handle case where user declined the prompt in the
-	          // confirmation dialog.
-	      }
-	
-	      override fun onCanceled() {
-	          super.onCanceled()
-	          // Handle case where your app closed the dialog before the user
-	          // responded to the prompt.
-	      }
-	
-	      override fun onError(e: Exception?) {
-	          super.onError(e)
-	          // Handle the exception that the callback captured.
-	      }
+	class MyConfirmationCallback : ConfirmationCallback() {
+
+	  override fun onConfirmed(dataThatWasConfirmed: ByteArray?) {
+		  super.onConfirmed(dataThatWasConfirmed)
+		  // Sign dataThatWasConfirmed using your generated signing key.
+		  // By completing this process, you generate a signed statement.
 	  }
+
+	  override fun onDismissed() {
+		  super.onDismissed()
+		  // Handle case where user declined the prompt in the
+		  // confirmation dialog.
+	  }
+
+	  override fun onCanceled() {
+		  super.onCanceled()
+		  // Handle case where your app closed the dialog before the user
+		  // responded to the prompt.
+	  }
+
+	  override fun onError(e: Exception?) {
+		  super.onError(e)
+		  // Handle the exception that the callback captured.
+	  }
+  }
 	```
 	    
 	[Java](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#java)
 	
 	```java
-	    public class MyConfirmationCallback extends ConfirmationCallback {
-	    
-	      @Override
-	      public void onConfirmed(@NonNull byte[] dataThatWasConfirmed) {
-	          super.onConfirmed(dataThatWasConfirmed);
-	          // Sign dataThatWasConfirmed using your generated signing key.
-	          // By completing this process, you generate a signed statement.
-	      }
-	    
-	      @Override
-	      public void onDismissed() {
-	          super.onDismissed();
-	          // Handle case where user declined the prompt in the
-	          // confirmation dialog.
-	      }
-	    
-	      @Override
-	      public void onCanceled() {
-	          super.onCanceled();
-	          // Handle case where your app closed the dialog before the user
-	          // responded to the prompt.
-	      }
-	    
-	      @Override
-	      public void onError(Throwable e) {
-	          super.onError(e);
-	          // Handle the exception that the callback captured.
-	      }
-	    }
+	public class MyConfirmationCallback extends ConfirmationCallback {
+	
+	  @Override
+	  public void onConfirmed(@NonNull byte[] dataThatWasConfirmed) {
+		  super.onConfirmed(dataThatWasConfirmed);
+		  // Sign dataThatWasConfirmed using your generated signing key.
+		  // By completing this process, you generate a signed statement.
+	  }
+	
+	  @Override
+	  public void onDismissed() {
+		  super.onDismissed();
+		  // Handle case where user declined the prompt in the
+		  // confirmation dialog.
+	  }
+	
+	  @Override
+	  public void onCanceled() {
+		  super.onCanceled();
+		  // Handle case where your app closed the dialog before the user
+		  // responded to the prompt.
+	  }
+	
+	  @Override
+	  public void onError(Throwable e) {
+		  super.onError(e);
+		  // Handle the exception that the callback captured.
+	  }
+	}
 	```
 	
 	
@@ -113,9 +113,9 @@ math: true
 	[Kotlin](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#kotlin)
 	
 	```kotlin
-	    // This data structure varies by app type. This is an example.
+	// This data structure varies by app type. This is an example.
 	  data class ConfirmationPromptData(val sender: String,
-	          val receiver: String, val amount: String)
+			  val receiver: String, val amount: String)
 	
 	  val myExtraData: ByteArray = byteArrayOf()
 	  val myDialogData = ConfirmationPromptData("Ashlyn", "Jordan", "$500")
@@ -123,36 +123,36 @@ math: true
 	  val callback = MyConfirmationCallback()
 	
 	  val dialog = ConfirmationPrompt.Builder(context)
-	          .setPromptText("${myDialogData.sender}, send
-	                          ${myDialogData.amount} to
-	                          ${myDialogData.receiver}?")
-	          .setExtraData(myExtraData)
-	          .build()
+			  .setPromptText("${myDialogData.sender}, send
+							  ${myDialogData.amount} to
+							  ${myDialogData.receiver}?")
+			  .setExtraData(myExtraData)
+			  .build()
 	  dialog.presentPrompt(threadReceivingCallback, callback)
 	```
 	    
 	[Java](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#java)
 	
 	```java
-	      // This data structure varies by app type. This is an example.
-	      class ConfirmationPromptData {
-	          String sender, receiver, amount;
-	          ConfirmationPromptData(String sender, String receiver, String amount) {
-	              this.sender = sender;
-	              this.receiver = receiver;
-	              this.amount = amount;
-	          }
-	      };
-	      final int MY_EXTRA_DATA_LENGTH = 100;
-	      byte[] myExtraData = new byte[MY_EXTRA_DATA_LENGTH];
-	      ConfirmationPromptData myDialogData = new ConfirmationPromptData("Ashlyn", "Jordan", "$500");
-	      Executor threadReceivingCallback = Runnable::run;
-	      MyConfirmationCallback callback = new MyConfirmationCallback();
-	      ConfirmationPrompt dialog = (new ConfirmationPrompt.Builder(getApplicationContext()))
-	              .setPromptText("${myDialogData.sender}, send ${myDialogData.amount} to ${myDialogData.receiver}?")
-	              .setExtraData(myExtraData)
-	              .build();
-	      dialog.presentPrompt(threadReceivingCallback, callback);
+	  // This data structure varies by app type. This is an example.
+	  class ConfirmationPromptData {
+		  String sender, receiver, amount;
+		  ConfirmationPromptData(String sender, String receiver, String amount) {
+			  this.sender = sender;
+			  this.receiver = receiver;
+			  this.amount = amount;
+		  }
+	  };
+	  final int MY_EXTRA_DATA_LENGTH = 100;
+	  byte[] myExtraData = new byte[MY_EXTRA_DATA_LENGTH];
+	  ConfirmationPromptData myDialogData = new ConfirmationPromptData("Ashlyn", "Jordan", "$500");
+	  Executor threadReceivingCallback = Runnable::run;
+	  MyConfirmationCallback callback = new MyConfirmationCallback();
+	  ConfirmationPrompt dialog = (new ConfirmationPrompt.Builder(getApplicationContext()))
+			  .setPromptText("${myDialogData.sender}, send ${myDialogData.amount} to ${myDialogData.receiver}?")
+			  .setExtraData(myExtraData)
+			  .build();
+	  dialog.presentPrompt(threadReceivingCallback, callback);
 	```
 	    
 > 	**注意：** 包含全屏对话框的确认提示界面无法自定义，但框架会为您处理按钮文本的本地化。

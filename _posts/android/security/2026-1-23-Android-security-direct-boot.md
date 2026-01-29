@@ -116,20 +116,20 @@ adb shell getprop ro.crypto.type
     adb shell sm set-emulate-fbe true
 ```
     
-    如需关闭“直接启动”模拟模式，请运行以下 shell 命令：
+如需关闭“直接启动”模拟模式，请运行以下 shell 命令：
     
 ```bash
     adb shell sm set-emulate-fbe false
 ```
     
-    运行其中任一命令都会导致设备重启。
+运行其中任一命令都会导致设备重启。
     
 
 ## 检查设备政策加密状态
 
 设备管理应用可以使用 [`DevicePolicyManager.getStorageEncryptionStatus()`](https://developer.android.com/reference/android/app/admin/DevicePolicyManager?hl=zh-cn#getStorageEncryptionStatus\(\)) 检查设备目前的加密状态。
 
-如果您的应用以低于 Android 7.0 (API 24) 的 API 级别为目标平台，则当设备使用完整磁盘加密或带“直接启动”的文件级加密时，`getStorageEncryptionStatus()` 会返回 [`ENCRYPTION_STATUS_ACTIVE`](https://developer.android.com/reference/android/app/admin/DevicePolicyManager?hl=zh-cn#ENCRYPTION_STATUS_ACTIVE)。在这两种情况下，数据在静态存储时始终以加密形式保存。e
+如果您的应用以低于 Android 7.0 (API 24) 的 API 级别为目标平台，则当设备使用完整磁盘加密或带“直接启动”的文件级加密时，`getStorageEncryptionStatus()` 会返回 [`ENCRYPTION_STATUS_ACTIVE`](https://developer.android.com/reference/android/app/admin/DevicePolicyManager?hl=zh-cn#ENCRYPTION_STATUS_ACTIVE)。在这两种情况下，数据在静态存储时始终以加密形式保存。
 
 如果您的应用以 Android 7.0 (API 24) 或更高版本为目标平台，则当设备使用完整磁盘加密时，`getStorageEncryptionStatus()` 会返回 `ENCRYPTION_STATUS_ACTIVE`。如果设备使用带“直接启动”的文件级加密，则其返回 [`ENCRYPTION_STATUS_ACTIVE_PER_USER`](https://developer.android.com/reference/android/app/admin/DevicePolicyManager?hl=zh-cn#ENCRYPTION_STATUS_ACTIVE_PER_USER)。
 
