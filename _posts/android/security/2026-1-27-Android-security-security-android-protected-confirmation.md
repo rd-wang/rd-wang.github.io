@@ -97,7 +97,7 @@ math: true
 	```
 	
 	
-	如果用户批准该对话框，则调用 `onConfirmed()` 回调。`dataThatWasConfirmed` BLOB 是一个 [CBOR 数据结构](http://cbor.io/)，其中包含用户看到的提示文本以及您传入 [`ConfirmationPrompt`](https://developer.android.com/reference/android/security/ConfirmationPrompt?hl=zh-cn) 构建器的额外数据，还包含其他详细信息。使用之前创建的密钥签署 `dataThatWasConfirmed` BLOB，然后将 BLOB 连同签名和交易详情回传给依赖方。
+	如果用户批准该对话框，则调用 `onConfirmed()` 回调。`dataThatWasConfirmed` BLOB 是一个 [CBOR 数据结构](https://cbor.io/)，其中包含用户看到的提示文本以及您传入 [`ConfirmationPrompt`](https://developer.android.com/reference/android/security/ConfirmationPrompt?hl=zh-cn) 构建器的额外数据，还包含其他详细信息。使用之前创建的密钥签署 `dataThatWasConfirmed` BLOB，然后将 BLOB 连同签名和交易详情回传给依赖方。
 	
 	**注意：** 由于密钥是使用 [`setUserConfirmationRequired()`](https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder?hl=zh-cn#setUserConfirmationRequired\(boolean\)) 创建的，因此只能用于签署 `dataThatWasConfirmed` 参数中返回的数据。尝试签署任何其他类型的数据都不会成功。
 	    
