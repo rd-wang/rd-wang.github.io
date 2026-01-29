@@ -133,7 +133,6 @@ math: true
 	    
 	[Java](https://developer.android.com/privacy-and-security/security-android-protected-confirmation?hl=zh-cn#java)
 
-  // This data s
 	```java
 	  // This data structure varies by app type. This is an example.
 	  class ConfirmationPromptData {
