@@ -4,9 +4,11 @@ date: 2026-2-4 11:18:51 +0800
 categories:
   - Android
   - Privacy
+  - Permission
 tags:
   - Android
   - Privacy
+  - Permission
 description: 建议您尽量少在应用内使用权限。这有助于用户发现和使用能提供安全可靠的用户环境的优质应用。
 math: true
 ---

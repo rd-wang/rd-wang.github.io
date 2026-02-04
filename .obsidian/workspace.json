@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/android/privacy/2026-2-4-Android-privacy-minimize-permission-requests.md",
+                "file": "_posts/android/privacy/handle_data_safely/2026-2-4-Android-privacy-declare-data-use.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-2-4-Android-privacy-minimize-permission-requests"
+              "title": "2026-2-4-Android-privacy-declare-data-use"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394.5
+    "width": 262.5
   },
   "right": {
     "id": "9c6b8ce129e8b6ef",
@@ -169,11 +169,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "40f2c37a2f8ff4a9",
+  "active": "6360870d08dc8184",
   "lastOpenFiles": [
-    "_posts/android/privacy/_2026-1-28-Android-privacy-.md",
-    "_posts/android/privacy/2026-2-4-Android-privacy-minimize-permission-requests.md",
+    "_posts/android/privacy/handle_data_safely",
     "_posts/android/privacy/2026-1-29-Android-privacy-privacy-checklist.md",
+    "_posts/android/privacy/2026-2-4-Android-privacy-minimize-permission-requests.md",
+    "_posts/android/privacy/handle_data_safely/2026-2-4-Android-privacy-declare-data-use.md",
+    "_posts/android/privacy/_2026-1-28-Android-privacy-.md",
+    "_posts/android/privacy 1/_2026-1-28-Android-privacy-.md",
+    "_posts/android/privacy 1/2026-2-4-Android-privacy-minimize-permission-requests.md",
+    "_posts/android/privacy 1/2026-1-29-Android-privacy-privacy-checklist.md",
+    "_posts/android/privacy 1",
     "_posts/sort/2024-07-25-桶排序.md",
     "_posts/sort/2024-07-24-堆.md",
     "_posts/sort/2024-07-22-快速排序.md",
@@ -198,16 +204,10 @@
     "_posts/android/security/2026-1-13-Android-security-advanced-protection-mode.md",
     "_posts/android/security/2025-11-27-Android-security-sdk-best-practices.md",
     "_posts/android/security/2026-1-13-Android-security-safetynet-safebrowsing.md",
-    "_posts/android/security/2026-1-15-Android-security-security-key-attestation.md",
-    "_posts/android/security/2026-1-15-Android-security-cryptography.md",
-    "_posts/android/security/2026-1-16-Android-security-keystore.md",
-    "_posts/android/security/2026-1-16-Android-security-key-verifier.md",
-    "_posts/android/security/2026-1-16-Android-security-security-dex.md",
     "未命名 1.base",
     "未命名.base",
     "_posts/ai",
     "_posts/android/security/ai_risks",
-    "_posts/android/security/common_risks",
     "assets/img/android/risk/partial_occlusion.png",
     "assets/img/android/risk/full_occlusion.png",
     "assets/img/dart/pub-2.png",
