@@ -99,4 +99,4 @@ Android 致力于帮助用户充分利用最新的创新技术，同时将用户
 - [浅色模式 PDF](https://developer.android.com/static/privacy-and-security/images/cheat-sheet-light.pdf?hl=zh-cn)
 - [深色模式 PDF](https://developer.android.com/static/privacy-and-security/images/cheat-sheet-dark.pdf?hl=zh-cn)
 
-![](https://developer.android.com/static/privacy-and-security/images/cheat-sheet.svg?hl=zh-cn)
+![Privacy cheat sheet](https://rd-wang.github.io/assets/img/android/privacy/cheat-sheet.svg)
