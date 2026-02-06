@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/android/privacy/handle_data_safely/2026-2-4-Android-privacy-declare-data-use.md",
+                "file": "_posts/android/privacy/handle_data_safely/2026-2-6-Android-privacy-audit-data-access.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-2-4-Android-privacy-declare-data-use"
+              "title": "2026-2-6-Android-privacy-audit-data-access"
             }
           }
         ]
@@ -171,11 +171,12 @@
   },
   "active": "6360870d08dc8184",
   "lastOpenFiles": [
+    "_posts/android/privacy/handle_data_safely/2026-2-4-Android-privacy-declare-data-use.md",
+    "_posts/android/privacy/handle_data_safely/2026-2-6-Android-privacy-audit-data-access.md",
+    "_posts/android/privacy/_2026-1-28-Android-privacy-.md",
+    "_posts/android/privacy/2026-2-4-Android-privacy-minimize-permission-requests.md",
     "_posts/android/privacy/handle_data_safely",
     "_posts/android/privacy/2026-1-29-Android-privacy-privacy-checklist.md",
-    "_posts/android/privacy/2026-2-4-Android-privacy-minimize-permission-requests.md",
-    "_posts/android/privacy/handle_data_safely/2026-2-4-Android-privacy-declare-data-use.md",
-    "_posts/android/privacy/_2026-1-28-Android-privacy-.md",
     "_posts/android/privacy 1/_2026-1-28-Android-privacy-.md",
     "_posts/android/privacy 1/2026-2-4-Android-privacy-minimize-permission-requests.md",
     "_posts/android/privacy 1/2026-1-29-Android-privacy-privacy-checklist.md",
@@ -207,7 +208,6 @@
     "未命名 1.base",
     "未命名.base",
     "_posts/ai",
-    "_posts/android/security/ai_risks",
     "assets/img/android/risk/partial_occlusion.png",
     "assets/img/android/risk/full_occlusion.png",
     "assets/img/dart/pub-2.png",
