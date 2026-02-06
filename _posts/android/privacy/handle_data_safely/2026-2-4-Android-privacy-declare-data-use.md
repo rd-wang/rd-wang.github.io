@@ -4,9 +4,11 @@ date: 2026-2-4 11:35:00 +0800
 categories:
   - Android
   - Privacy
+  - Handle-data-safely
 tags:
   - Android
   - Privacy
+  - Handle-data-safely
 description: Play 管理中心在应用内容页面上提供了数据安全表单。在此表单中，您将向用户说明您的应用会收集和分享哪些类型的用户数据。这些信息有助于提高数据的透明度和用户的信任度。
 math: true
 ---

@@ -4,9 +4,11 @@ date: 2026-2-6 15:19:56 +0800
 categories:
   - Android
   - Privacy
+  - Handle-data-safely
 tags:
   - Android
   - Privacy
+  - Handle-data-safely
 description: 通过执行数据访问审核，您可以深入了解您的应用程序及其依赖项如何访问用户的私有数据。该流程适用于运行 Android 11（API 级别 30）及更高版本的设备，可帮助您更好地识别潜在的意外数据访问。
 math: true
 ---
