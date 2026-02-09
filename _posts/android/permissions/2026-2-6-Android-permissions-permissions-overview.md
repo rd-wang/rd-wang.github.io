@@ -45,7 +45,7 @@ Android 将权限分为不同的类型，包括安装时权限、运行时权限
 
 Android 包含几种安装时权限的子类型，包括普通权限和签名权限。
 
-![应用商店中显示的应用安装时权限列表。](https://rd-wang.github.io/assets/img/android/permissions/install-time.svg)
+![应用商店中显示的应用安装时权限列表。](https://rd-wang.github.io/assets/img/android/permissions/install-time.svg){: width="50%" height="50%" }
 
 **图 2.** 某应用商店中显示的某个应用的安装时权限列表。
 #### 普通权限
@@ -70,7 +70,7 @@ Android 包含几种安装时权限的子类型，包括普通权限和签名权
 
 当应用请求运行时权限时，系统会显示运行时权限提示，如图 3 所示。
 
-![当应用请求运行时权限时显示的系统权限提示](https://rd-wang.github.io/assets/img/android/permissions/runtime.svg)
+![当应用请求运行时权限时显示的系统权限提示](https://rd-wang.github.io/assets/img/android/permissions/runtime.svg){: width="40%" height="40%" }
 
 **图 3.** 当应用请求运行时权限时显示的系统权限提示。
 

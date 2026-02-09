@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d3a5eacba62f0ca7",
+        "id": "03e0dba6a9df0317",
         "type": "tabs",
         "children": [
           {
-            "id": "2aeb543413a477c8",
+            "id": "a1a3321019176a57",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "width",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,8 +169,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2aeb543413a477c8",
+  "active": "a1a3321019176a57",
   "lastOpenFiles": [
+    "_posts/android/base/2025-11-27-Android-平台架构.md",
+    "_posts/android/permissions/2026-2-6-Android-permissions-permissions-overview.md",
+    "未命名.base",
+    "_posts/dart/2025-11-27-Dart-发布库.md",
+    "_posts/android/permissions/_2026-2-6-Android-permissions-.md",
     "_posts/sort/2024-07-18-插入排序.md",
     "_posts/sort/2024-07-19-归并排序.md",
     "_posts/sort/2024-07-24-堆.md",
@@ -178,7 +183,6 @@
     "_posts/sort/2024-07-30-梳排序.md",
     "_posts/sort/2024-07-22-快速排序.md",
     "_posts/sort/2024-07-19-选择排序.md",
-    "_posts/android/permissions/2026-2-6-Android-permissions-permissions-overview.md",
     "_posts/sort/2024-07-26-计数排序.md",
     "assets/img/android/permissions/workflow-overview.svg",
     "assets/img/android/permissions/未确认 134857.crdownload",
@@ -188,7 +192,6 @@
     "assets/img/android/permissions/未确认 648929.crdownload",
     "assets/img/android/permissions",
     "assets/img/android/新建文件夹",
-    "_posts/android/permissions/_2026-2-6-Android-permissions-.md",
     "_posts/android/privacy/_2026-1-28-Android-privacy-.md",
     "_posts/android/privacy/local_network_protections/2026-2-6-Android-privacy-local-network-permission.md",
     "_posts/android/permissions",
@@ -205,12 +208,9 @@
     "_posts/android/privacy 1",
     "_posts/sort/2024-07-25-桶排序.md",
     "assets/img/android/privacy/cheat-sheet.svg",
-    "assets/img/android/privacy/未确认 159281.crdownload",
     "_posts/android/security/protect_data_sent_over_network/2026-1-22-Android-security-certificate-transparency-policy.md",
     "_posts/android/security/protect_data_sent_over_network/2026-1-16-Android-security-network-ssl.md",
     "_posts/android/security/protect_data_sent_over_network/2026-1-19-Android-security-network-config.md",
-    "_posts/android/security/protect_data_sent_over_network/2026-1-19-Android-security-security-gms-provider.md",
-    "_posts/android/security/2026-1-27-Android-security-security-android-protected-confirmation.md",
     "assets/img/android/risk/partial_occlusion.png",
     "assets/img/android/risk/full_occlusion.png",
     "assets/img/dart/pub-2.png",
