@@ -4,9 +4,11 @@ date: 2026-2-6 16:08:40 +0800
 categories:
   - Android
   - Permissions
+  - Overview
 tags:
   - Android
   - Permissions
+  - Overview
 description: 介绍 Android 权限的工作原理，包括使用权限的概要工作流、对不同类型权限的说明，以及在应用中使用权限的一些最佳实践。
 math: true
 ---
