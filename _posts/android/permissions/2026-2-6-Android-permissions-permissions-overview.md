@@ -30,7 +30,7 @@ math: true
 
 图 1 显示了使用应用权限的工作流：
 
-![图 1. 在 Android 中使用权限的概要工作流。](https://rd-wang.github.io/assets/img/android/permissions/workflow-overview.svg){: width="80%" height="80%" }
+![图 1. 在 Android 中使用权限的概要工作流。](https://rd-wang.github.io/assets/img/android/permissions/workflow-overview.svg){: width="100%" height="100%" }
 
 
 
