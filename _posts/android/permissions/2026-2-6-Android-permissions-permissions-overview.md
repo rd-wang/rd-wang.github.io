@@ -23,7 +23,7 @@ math: true
 
 如需查看演示权限工作流的一些示例应用，请访问 GitHub 上的 [Android 权限示例仓库](https://github.com/android/platform-samples/tree/main/samples/privacy/permissions)。
 
-如需查看官方视频介绍，请查看[Permissions Video](https://youtu.be/zCAx4WZ98rs)。
+如需查看官方视频介绍，请查看![Permissions Video](https://youtu.be/zCAx4WZ98rs)。
 ## 使用权限的工作流
 
 如果您的应用提供的功能可能需要访问受限数据或执行受限操作，请确定您是否[无需声明权限](https://developer.android.com/training/permissions/evaluating?hl=zh-cn)即可获取相关信息或执行相关操作。您可以在您的应用中实现很多场景（例如拍照、暂停媒体播放和展示相关广告），而无需声明任何权限。

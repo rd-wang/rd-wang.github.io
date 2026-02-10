@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/android/permissions/2026-2-9-Android-permissions-declaring.md",
+                "file": "_posts/android/permissions/2026-2-10-Android-permissions-requesting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-2-9-Android-permissions-declaring"
+              "title": "2026-2-10-Android-permissions-requesting"
             }
           }
         ]
@@ -173,6 +173,11 @@
   "lastOpenFiles": [
     "_posts/android/permissions/2026-2-6-Android-permissions-permissions-overview.md",
     "_posts/android/permissions/2026-2-9-Android-permissions-declaring.md",
+    "_posts/android/permissions/2026-2-10-Android-permissions-requesting.md",
+    "assets/img/android/permissions/one-time-prompt.svg",
+    "assets/img/android/permissions/未确认 57154.crdownload",
+    "assets/img/android/permissions/workflow-runtime.svg",
+    "assets/img/android/permissions/未确认 534339.crdownload",
     "_posts/android/permissions/_2026-2-6-Android-permissions-.md",
     "_posts/android/base/2025-11-27-Android-平台架构.md",
     "未命名.base",
@@ -201,21 +206,15 @@
     "_posts/android/privacy/handle_data_safely/2026-2-6-Android-privacy-audit-data-access.md",
     "_posts/android/privacy/local_network_protections",
     "_posts/android/privacy/2026-2-4-Android-privacy-minimize-permission-requests.md",
-    "_posts/android/privacy/handle_data_safely",
     "_posts/android/privacy/2026-1-29-Android-privacy-privacy-checklist.md",
     "_posts/android/privacy 1/_2026-1-28-Android-privacy-.md",
     "_posts/android/privacy 1/2026-2-4-Android-privacy-minimize-permission-requests.md",
     "_posts/android/privacy 1/2026-1-29-Android-privacy-privacy-checklist.md",
-    "_posts/android/privacy 1",
     "_posts/sort/2024-07-25-桶排序.md",
     "assets/img/android/privacy/cheat-sheet.svg",
-    "_posts/android/security/protect_data_sent_over_network/2026-1-22-Android-security-certificate-transparency-policy.md",
-    "_posts/android/security/protect_data_sent_over_network/2026-1-16-Android-security-network-ssl.md",
     "assets/img/android/risk/partial_occlusion.png",
     "assets/img/android/risk/full_occlusion.png",
     "assets/img/dart/pub-2.png",
-    "assets/img/dart/pub-1.png",
-    "assets/img/dart/memory-5.png",
-    "assets/img/dart/memory-4.png"
+    "assets/img/dart/pub-1.png"
   ]
 }
