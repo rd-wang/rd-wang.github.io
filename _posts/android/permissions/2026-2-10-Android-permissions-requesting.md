@@ -144,7 +144,7 @@ when {
 }
 ```
 [Java](https://developer.android.com/training/permissions/requesting?hl=zh-cn#java)
-``
+
 ```java
 if (ContextCompat.checkSelfPermission(
         CONTEXT, Manifest.permission.REQUESTED_PERMISSION) ==
@@ -166,7 +166,7 @@ if (ContextCompat.checkSelfPermission(
             REQUEST_CODE);
 }
 ```
-``
+
 以下代码片段演示了检查权限以及在必要时向用户请求权限的推荐流程：
 
 [Kotlin](https://developer.android.com/training/permissions/requesting?hl=zh-cn#kotlin)
